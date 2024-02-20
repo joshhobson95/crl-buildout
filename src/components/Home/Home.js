@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import ladder from '../../assets/lisa-yount-6R_vtAyh2EY-unsplash.jpg';
+import ladder from '../../assets/LadderFINAL.png';
 import Learn from '../../assets/Learn.png'
 import Listen from '../../assets/Listen.png'
 import Watch from '../../assets/Watch.png'
@@ -51,9 +51,9 @@ console.log(posts)
     
     <div className='home_outer_container'>
       <div className='home_top'>
-        <div>
+
           <img className='home_ladder' src={ladder} alt='' />
-        </div>
+ 
         <div className='home_top_text'>
           <h1 className='freehand_header'>Join Us On The Journey To Put Relationships First</h1>
           <p>RelationaLeadership and RelationaLearning has helped thousands of individuals and scores of schools, community groups and organizations to develop competency in what we call RelationaLeadership and Relationalearning.
@@ -71,6 +71,7 @@ console.log(posts)
       </div>
 
 <div className='blog_section'>
+  <div className='blog_section_inner_blogs'>
         <div className='blog_block'>
           <h2>This Week's Blog</h2>
           <img alt=''/>
@@ -89,6 +90,7 @@ console.log(posts)
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
+</div>
   <div className='blog_history_shell'>
         <div className='blog_history'>
           <h2>Our History</h2>
@@ -107,7 +109,7 @@ console.log(posts)
  </div>
  <div className='home_links'>
   <h2>Listen</h2>
-  <img src={Listen} alt=''/>
+  <img className='listen_image' src={Listen} alt=''/>
   <p>Listen to our Podcast</p>
 
  </div>
@@ -132,8 +134,10 @@ console.log(posts)
   <img className='boardroom' src={boardroom} alt='' />
   <img className='greenwheel' src={greenwheel} alt='' />
 </div>
+<div className='CRL_for_all_top_text'>
     <h3>From the board room...</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
+</div>
   </div>
 
   <div className='CRL_for_all_bottom'>
@@ -141,8 +145,10 @@ console.log(posts)
     <img className='kids' src={kids} alt=''/>
     <img className='paint' src={yellowbig} alt=''/>
     </div>
+    <div className='CRL_for_all_bottom_text'>
     <h3>...To the classrom</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
+    </div>
   </div>
 </div>
 

@@ -153,6 +153,8 @@ margin: 2rem;
 }
 .CRL_for_all p{
 line-height: 1.5;
+position: relative;
+z-index: 3;
 }
 .CRL_for_all h3{
     font-weight: 500;
@@ -217,18 +219,10 @@ line-height: 1.5;
     z-index: 1;
   }
   
-
-
-
-
-
-
 .relationalforall {
     position: relative;
   }
   
-
-
 .global_effort{
     font-family: Kaisei Decol;
     display: flex;
@@ -289,4 +283,78 @@ padding: 1.5rem;
     padding-top: 5rem;
     display: flex;
     justify-content: center;
+}
+.listen_image{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+
+@media (min-width: 1024px) {
+
+    .home_top_text {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50vw; 
+    }
+    .blog_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+    .blog_section_inner_blogs{
+        display: flex;
+    }
+    .blog_history_shell{
+        width: 60vw;
+    }
+    .listen_learn_watch{
+        flex-direction: row;
+    }
+    .home_links{
+        height: 40vh;
+    }
+    .home_links img{
+        width: 25vw;
+    }
+    .home_links p{
+        font-size: 16pt;
+    }
+    .greenwheel{
+        top: -100px;
+        left: -100px;
+    }
+    .redwheel{
+        width: 23vw !important;
+        left: 882px;
+        top: -39px;
+    }
+    .CRL_for_all img{
+        width: 60vw;
+    }
+    .CRL_for_all_top{
+        display: flex;
+    }
+    .CRL_for_all_bottom{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .global_bottom{
+       flex-direction: row;
+    
+    }
+    .global_bottom img{
+       width: 15vw;
+    }
+    .global_bottom div{
+        width: 20vw;
+        margin: 1rem;
+    }
+    .home_email_div{
+        display: flex
+    }
+    .booksplash{
+        width: 50vw;
+    }
 }
