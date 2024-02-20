@@ -12,6 +12,10 @@ import maps4 from '../../assets/maps4.png'
 import maps5 from '../../assets/maps5.png'
 import booksplash from '../../assets/booksplash.png'
 import greenwheel from '../../assets/greenwheel.png'
+import redwheel from '../../assets/redwheel.png'
+import yellowbig from '../../assets/paint/yellowbig.png'
+
+
 
 function Home() {
   const [posts, setPosts] = useState([]);
@@ -59,7 +63,11 @@ console.log(posts)
           We believe skillfully placing relationships first in all our interactions holds the key to personal and professional success, and contributes most to our becoming better human beings.
 
           Our research, publications, programs and collaborations highlight and support the primacy of Relationships First in making our organizations, schools and communities places of equity, justice, hope, achievement and joy for all.</p>
+<div className='home_more_info_shell'>
+        <button className='home_more_info'>More Info</button>
+</div>
         </div>
+
       </div>
 
 <div className='blog_section'>
@@ -81,11 +89,13 @@ console.log(posts)
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
+  <div className='blog_history_shell'>
         <div className='blog_history'>
           <h2>Our History</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi. Curabitur finibus nisi libero, eget vehicula ligula lobortis vitae. </p>
           <button>Learn More</button>
         </div>
+  </div>
 </div>
 
 <div className='listen_learn_watch'>
@@ -111,14 +121,15 @@ console.log(posts)
 </div>
 
 <div className='CRL_for_all'>
-  <div>
-  <h2>RelationaLearning for All</h2>
-  <img />
+  <div className='redwheel_container'>
+  <img className='redwheel' src={redwheel} alt='' />
   </div>
+
+  <h2>RelationaLearning for <span className='underline'>All</span></h2>
+
   <div className='CRL_for_all_top'>
   <div className="boardroom_container">
   <img className='boardroom' src={boardroom} alt='' />
-  <img className='greenwheel' src={greenwheel} alt='' />
   <img className='greenwheel' src={greenwheel} alt='' />
 </div>
     <h3>From the board room...</h3>
@@ -126,7 +137,10 @@ console.log(posts)
   </div>
 
   <div className='CRL_for_all_bottom'>
-    <img src={kids} alt=''/>
+    <div className='classroom_container'>
+    <img className='kids' src={kids} alt=''/>
+    <img className='paint' src={yellowbig} alt=''/>
+    </div>
     <h3>...To the classrom</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
   </div>

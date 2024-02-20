@@ -30,6 +30,26 @@
     margin: 1rem;
     text-align: center;
 }
+.home_more_info_shell {
+    background-image: url(../../assets/paint/yellowbigalt.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.home_more_info{
+    border: none;
+    background-color: #0B8F99;
+    font-family: Kaisei Decol;
+    font-weight: 500;
+    color: white;
+    font-size: 16pt;
+    padding: 0.6rem;
+    align-self: center;
+    margin: 1rem;
+}
 .blog_section{
     width: 100vw;
     background-color: #D47A5F;
@@ -57,6 +77,12 @@
     height: 100px;
     width: 100px;
     position: relative;
+}
+.blog_history_shell{
+    background-image: url(../../assets/paint/tealpaint.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
 }
 .blog_history{
     background-color: #D9D9D9;
@@ -121,7 +147,9 @@ margin: 2rem;
 .CRL_for_all h2{
     font-weight: 500;
     margin: 1rem;
+    margin-bottom: 3rem;
     font-size: 20pt;
+    position: relative;
 }
 .CRL_for_all p{
 line-height: 1.5;
@@ -135,6 +163,20 @@ line-height: 1.5;
     width: 80vw;
     z-index: 2;
     margin: 1rem;
+}
+.underline{
+ position: relative;   
+}
+.underline::after {
+    content: ''; /* Add content for the underline */
+    position: absolute; /* Position the underline absolutely */
+    left: 0; /* Position the underline flush with the left edge of the parent */
+    bottom: -5px; /* Adjust the distance from the bottom of the parent */
+    width: 100%; /* Make the underline span the full width of the parent */
+    height: 10px; /* Set the height of the underline */
+    background-image: url('../../assets/paint/yellowpaint.png'); /* Set the image for the underline */
+    background-size: 100% auto; /* Set the width to 100% and auto height to maintain aspect ratio */
+    background-repeat: no-repeat;
 }
 
 .boardroom_container {
@@ -151,7 +193,36 @@ line-height: 1.5;
     z-index: 1 !important;
     width: 40vw !important;
   }
+  .redwheel_container{
+    position: relative;
+  }
+  .redwheel{
+    position: absolute;
+    width: 40vw !important;
+    left: 332px;
+    top: -95px;
+  }
+  .classroom_container{
+    position: relative;
+  }
+  .kids{
+    position: relative;
+    z-index: 3 !important;
+  }
+  .paint{
+    position: absolute;
+    width: 70vw !important;
+    left: 100px;
+    top: -40px;
+    z-index: 1;
+  }
   
+
+
+
+
+
+
 .relationalforall {
     position: relative;
   }
@@ -163,6 +234,7 @@ line-height: 1.5;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 2rem;
 }
 .global_effort h2, h4{
    font-weight: 500;
