@@ -143,7 +143,9 @@ console.log(posts)
   <div className='CRL_for_all_bottom'>
     <div className='classroom_container'>
     <img className='kids' src={kids} alt=''/>
+    <div className='paint_container'>
     <img className='paint' src={yellowbig} alt=''/>
+    </div>
     </div>
     <div className='CRL_for_all_bottom_text'>
     <h3>...To the classrom</h3>
