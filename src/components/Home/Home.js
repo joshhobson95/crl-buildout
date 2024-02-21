@@ -51,8 +51,9 @@ console.log(posts)
     
     <div className='home_outer_container'>
       <div className='home_top'>
-
+<div className='home_ladder_container'>
           <img className='home_ladder' src={ladder} alt='' />
+</div>
  
         <div className='home_top_text'>
           <h1 className='freehand_header'>Join Us On The Journey To Put Relationships First</h1>

@@ -13,10 +13,13 @@
     text-align: center;
 
 }
+
 .home_ladder{
     height: auto;
     width: 100vw;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: -1;
 }
 .home_top_text{
     display: flex;
@@ -455,6 +458,11 @@ padding: 1.5rem;
 }
 
 @media (min-width: 1600px) {
+
+ .home_ladder_container{
+    max-height: 80vh;
+    display: block;
+} 
     .redwheel {
         left: 1480px;
         top: -31px;
