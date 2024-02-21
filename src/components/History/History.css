@@ -1,0 +1,37 @@
+.history_outer_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 11vh;
+}
+.history_image_top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sunset{
+    width: 100vw;
+}
+.sunset_image{
+    background-image: url(../../assets/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 40vh;
+    filter: brightness(80%);
+}
+.our_story{
+    background-image: url(../../assets/paint/purpledefined.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.our_story h2{
+    padding: 2rem;
+    color:white;
+    font-size: 22pt;
+}
