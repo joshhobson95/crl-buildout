@@ -439,19 +439,21 @@ padding: 1.5rem;
 .CRL_for_all_top_text h3{
    text-align: left;
    font-size: 26pt;
-   margin: 2rem 1rem;
+   margin: 2rem 3rem;
 }
 .CRL_for_all_bottom_text h3{
    text-align: right;
    font-size: 26pt;
-   margin: 2rem 1rem;
+   margin: 2rem 3rem;
 }
 .global_effort p {
    line-height: 2;
 }
-
-
+.blog_history_shell {
+    width: 50vw;
 }
+}
+
 @media (min-width: 1600px) {
     .redwheel {
         left: 1480px;
@@ -472,6 +474,7 @@ padding: 1.5rem;
      .CRL_for_all h2 {
         font-size: 32pt;
     }
+    
 }
 
 @media (min-width: 1800px) {
@@ -486,7 +489,7 @@ padding: 1.5rem;
         padding: 2rem 10rem;
     }
     .home_links h2{
-        font-size: 30pt;
+        font-size: 28pt;
     }
     .redwheel {
         left: 1865px;
@@ -497,17 +500,38 @@ padding: 1.5rem;
         left: -161px;
         width: 30vw !important;
     }
+    .CRL_for_all{
+        padding: 6rem;
+    }
     .CRL_for_all p {
         line-height: 2;
         font-size: 16pt;
     }
-    .CRL_for_all_top_text h3 {
+    .global_effort p{
+        font-size: 16pt;
+    }
+    .global_effort h2{
         font-size: 34pt;
     }
+    .global_effort h4{
+        font-size: 18pt;
+    }
+    .CRL_for_all_top_text h3 {
+        font-size: 32pt;
+    }
     .CRL_for_all h2 {
-        font-size: 36pt;
+        font-size: 34pt;
     }
     .CRL_for_all img {
         width: 45vw;
+    }
+    .blog_history_shell {
+        width: 40vw;
+    }
+    .global_effort{
+        padding: 6rem 10rem;
+    }
+    .booksplash{
+        width: 40vw;
     }
 }
