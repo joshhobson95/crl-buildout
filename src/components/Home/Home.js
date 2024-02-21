@@ -135,7 +135,7 @@ console.log(posts)
   <img className='greenwheel' src={greenwheel} alt='' />
 </div>
 <div className='CRL_for_all_top_text'>
-    <h3>From the board room...</h3>
+    <h3>From the boardroom...</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
 </div>
   </div>
@@ -148,12 +148,13 @@ console.log(posts)
     </div>
     </div>
     <div className='CRL_for_all_bottom_text'>
-    <h3>...To the classrom</h3>
+    <h3>...To the classroom</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
     </div>
   </div>
 </div>
 
+<div className='gradient_bottom_page'>
 <div className='global_effort'>
   <h2>A Global Effort</h2>
 <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam.
@@ -212,6 +213,7 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
 
 </div>
 
+</div>
 
 
 
