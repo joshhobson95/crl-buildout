@@ -270,6 +270,9 @@ padding: 1.5rem;
     color: white;
     font-family: Kaisei Decol;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .home_email_form button{
     font-family: Kaisei Decol;
@@ -277,11 +280,38 @@ padding: 1.5rem;
     color: white;
     padding: 1rem;
     border: none;
-    height: 3rem;
     width: 7rem;
     margin: 1rem;
     border-radius: 10px;
+    align-self: center;
+    font-size: 12pt;
 }
+.home_email_form h2{
+font-size: 14pt;
+padding: 0.75rem;
+padding-bottom: 2rem;
+text-align: center;
+}
+.home_email_form input{
+    margin: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+#firstName{
+    height: 2rem;
+}
+#lastName{
+    height: 2rem;
+}
+#email{
+    height: 2rem;
+}
+.home_email_form div{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .gradient_bottom_page{
     background-image: linear-gradient( #D9d9d952, rgba(87, 85, 140, 0.58));
 }
@@ -296,6 +326,7 @@ padding: 1.5rem;
     display: flex;
     justify-content: center;
 }
+
 
 
 
@@ -336,7 +367,7 @@ padding: 1.5rem;
     }
 
     .home_links img{
-        width: 25vw;
+        width: 15vw;
     }
     .home_links p{
         font-size: 16pt;
@@ -378,10 +409,16 @@ padding: 1.5rem;
     }
     .home_email_div{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .booksplash{
         width: 50vw;
+    }
+    .home_email_form{
+        width: 20rem;
+    }
+    .home_email_form h2{
+        font-size: 16pt;
     }
 }
 
@@ -411,6 +448,9 @@ padding: 1.5rem;
 }
 .global_effort h2{
     font-size:  26pt;
+}
+.home_email_form{
+    height: 35vh;
 }
 }
 
@@ -455,6 +495,7 @@ padding: 1.5rem;
 .blog_history_shell {
     width: 50vw;
 }
+
 }
 
 @media (min-width: 1600px) {
@@ -494,7 +535,7 @@ padding: 1.5rem;
         font-size: 14pt;
     }
     .listen_learn_watch{
-        padding: 2rem 10rem;
+        padding: 2rem 15rem;
     }
     .home_links h2{
         font-size: 28pt;
@@ -509,7 +550,7 @@ padding: 1.5rem;
         width: 30vw !important;
     }
     .CRL_for_all{
-        padding: 6rem;
+        padding: 10rem;
     }
     .CRL_for_all p {
         line-height: 2;
@@ -517,6 +558,7 @@ padding: 1.5rem;
     }
     .global_effort p{
         font-size: 16pt;
+        padding: 0rem 10rem;
     }
     .global_effort h2{
         font-size: 34pt;
@@ -541,5 +583,32 @@ padding: 1.5rem;
     }
     .booksplash{
         width: 40vw;
+    }
+    .home_email_form{
+        width: 25vw;
+        height: 45vh;
+    }
+    .home_email_form h2{
+        font-size: 22pt;
+        padding: 3rem;
+    }
+    .home_email_form label{
+        font-size: 16pt;
+    }
+    #firstName{
+        height: 3.3rem;
+    }
+    #lastName{
+        height: 3.3rem;
+    }
+    #email{
+        height: 3.3rem;
+    }
+    .home_email_form button{
+        font-size: 19pt;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        width: 10rem;
     }
 }
