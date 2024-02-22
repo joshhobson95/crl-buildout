@@ -1,0 +1,78 @@
+.relationalearning_outer_shell{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.relationalearning_top_background {
+    position: relative; /* Make the container relative */
+}
+
+.relationalearning_top_background::before {
+    content: ""; /* Create a pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/02/matt-briney-JClN4owv7pc-unsplash.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    filter: brightness(0.8); /* Apply filter to the background image only */
+    z-index: -1; /* Send the pseudo-element behind other content */
+}
+.relationalearning_top{
+    color: white;
+    text-align: center;
+}
+.relationalearning_top h2{
+    font-size: 26pt;
+    font-weight: 600;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.relationalearning_top_inner{
+background-color: #027a8ad3 ;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+}
+.relationalearning_bullets{
+    background-color: #57558C ;
+    color: white;
+    text-align: center;
+}
+.relationalearning_bullets h3{
+    font-size: 16pt;
+    margin: 1rem;
+}
+.relationalearning_bullets ul {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+
+.relationalearning_bullets li {
+    font-size: 12pt;
+    margin: 2rem 4rem;
+    margin-bottom: 5px; /* Optional: Add some spacing between list items */
+    padding-left: 20px; /* Adjust as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-position: 0%; /* Adjust as needed */
+    padding-left: 50px;
+    padding-right: 50px;
+    background-size: 30px 30px;
+}
+
+/* Apply first image (1) to odd list items */
+.relationalearning_bullets li:nth-child(odd) {
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/yellowwheel.png);
+}
+
+/* Apply second image (2) to even list items that are not multiples of 3 */
+.relationalearning_bullets li:nth-child(even):not(:nth-child(3n)) {
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/greenwheel.png);
+}
+
+/* Apply third image (3) to list items that are multiples of 3 */
+.relationalearning_bullets li:nth-child(3n) {
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/redwheel.png);
+}
