@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    max-width: 100vw;
 }
 .relationalearning_top_background {
     position: relative; /* Make the container relative */
@@ -75,4 +76,9 @@ margin: 2rem 0rem;
 /* Apply third image (3) to list items that are multiples of 3 */
 .relationalearning_bullets li:nth-child(3n) {
     background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/redwheel.png);
+}
+.relationalearning_quote{
+    background-color: aquamarine;
+    padding: 2rem;
+    
 }
