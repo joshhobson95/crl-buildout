@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: column;
     max-width: 100vw;
+    font-family: Kaisei Decol;
 }
 .relationalearning_top_background {
     position: relative; /* Make the container relative */
@@ -37,10 +38,28 @@ line-height: 1.5;
 padding: 0.5rem 2rem;
 margin: 2rem 0rem;
 }
+
+.orange_paint_container{
+    display: flex;
+}
+.orange_paint{
+    width: 30vw;
+    margin-top: -1.5rem;
+}
+.orange_paint_container2{
+    display: flex;
+    justify-content: flex-end;
+}
+.orange_paint2{
+    width: 30vw;
+    margin-bottom: -4.5rem;
+    transform: scaleX(-1);
+}
 .relationalearning_bullets{
     background-color: #57558C ;
     color: white;
     text-align: center;
+    padding-bottom: 2rem;
 }
 .relationalearning_bullets h3{
     font-size: 16pt;
@@ -54,31 +73,151 @@ margin: 2rem 0rem;
 .relationalearning_bullets li {
     font-size: 12pt;
     margin: 2rem 4rem;
-    margin-bottom: 5px; /* Optional: Add some spacing between list items */
-    padding-left: 20px; /* Adjust as needed */
-    background-repeat: no-repeat; /* Prevent image from repeating */
-    background-position: 0%; /* Adjust as needed */
+    margin-bottom: 5px;
+    padding-left: 20px;
+    background-repeat: no-repeat; 
+    background-position: 0%; 
     padding-left: 50px;
     padding-right: 50px;
     background-size: 30px 30px;
 }
 
-/* Apply first image (1) to odd list items */
 .relationalearning_bullets li:nth-child(odd) {
     background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/yellowwheel.png);
 }
 
-/* Apply second image (2) to even list items that are not multiples of 3 */
+
 .relationalearning_bullets li:nth-child(even):not(:nth-child(3n)) {
     background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/greenwheel.png);
 }
 
-/* Apply third image (3) to list items that are multiples of 3 */
+
 .relationalearning_bullets li:nth-child(3n) {
     background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/redwheel.png);
 }
 .relationalearning_quote{
-    background-color: aquamarine;
+    background-color: #027B8A;
     padding: 2rem;
+    color: white;
+    text-align: center;
+}
+.relationalearning_mid_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.relationalearning_mid_page img{
+    width: 80vw;
+    align-self: center;
+    margin: 1rem;
+}
+.relationalearning_mid_page h2{
+    font-size: 16pt;
+    text-align: center;
+    padding: 1rem;
+}
+.relationalearning_mid_page p{
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.5;
+    font-size: 10pt;
+}
+
+.relationalearning_phases{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.relationalearning_phases p{
+    line-height: 1.5;
+    font-size: 10pt;
+}
+.relationalearning_phases h2{
+    font-size: 16pt;
+    margin: 1.5rem;
+    margin-top: 2.5rem;
+    color: #D47A5F;
+
+}
+.relationalearning_phases h3{
+    color: #D47A5F;
+    font-size: 14pt;
+    padding: 1rem;
     
+}
+.phaseone{
+    margin: 1rem;
+    text-align: center;
+}
+.phasetwo{
+    margin: 1rem;
+    text-align: center;
+}
+.phasethree{
+    margin: 1rem;
+    text-align: center;
+}
+.phasefour{
+    margin: 1rem;
+    text-align: center;
+}
+.purple_paint{
+    width: 35vw;
+    margin-top: -2rem;
+    z-index: -1;
+}
+.purple_paint_container{
+    display: flex;
+}
+.relationalearning_paper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.relational_logo{
+    width: 65vw;
+    align-self: center;
+}
+.relationalearning_paper h3{
+text-align: center;
+margin: 0.5rem 1rem;
+line-height: 1.5;
+font-size: 10pt;
+}
+.relationalearning_paper_download{
+    width: 30vw;
+    margin: 1rem;
+    align-self: center;
+    border: none;
+    background-color: #FDC677;
+    padding: 1rem;
+    font-family: Kaisei Decol;
+}
+.relationalearning_bottom_banner{
+    background-color: #ABBA4A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.relationalearning_bottom_banner h2{
+    font-size: 14pt;
+    margin: 1rem;
+}
+.relationalearning_bottom_banner p{
+    font-size: 10pt;
+    line-height: 1.5;
+}
+.relationalearning_bottom_banner button{
+    width: 30vw;
+    margin: 1rem;
+    align-self: center;
+    border: none;
+    background-color: #D9D9D9;
+    padding: 1rem;
+    font-family: Kaisei Decol;
 }
