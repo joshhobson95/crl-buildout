@@ -29,13 +29,7 @@ function RelationaLearning() {
                 </ul>                
           </div>
           <div>
-            <h2>PIZZERIA</h2>
-            <h2>PIZZERIA</h2>
-            <h2>PIZZERIA</h2>
-            <h2>PIZZERIA</h2>
-            <h2>PIZZERIA</h2>
-            <h2>PIZZERIA</h2>
-            <h2>PIZZERIA</h2>
+
           </div>
 
 
