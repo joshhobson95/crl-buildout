@@ -1,0 +1,48 @@
+.resources_outer_shell{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6vh;
+}
+.resources_top_background{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/matt-briney-JClN4owv7pc-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.resources_header{
+    font-size: 22pt;
+    margin: 1rem;
+}
+.resources_purple_top{
+    background-color: rgba(137, 43, 226, 0.327);
+    color: white;
+}
+.resources_purple_top p{
+    padding: 1rem 4rem;
+}
+.resources_mid_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.resource_block{
+    background-color: rgb(171, 162, 150);
+    width: 45vw;
+    padding: 2rem;
+    margin: 1rem;
+}
+.resource_block img{
+    width: 35vw;
+}
+.resource_block h3{
+    font-size: 16pt;
+    padding: 1rem;
+}
+.resource_block p{
+    padding: 1rem;
+}
