@@ -3,11 +3,13 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 11vh;
+    font-family: Kaisei Decol;
 }
 .history_image_top{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 .sunset{
     width: 100vw;
@@ -19,6 +21,9 @@
     width: 100vw;
     height: 40vh;
     filter: brightness(80%);
+    display: flex ;
+    justify-content: center;
+    position: relative;
 }
 .our_story{
     background-image: url(../../assets/paint/purpledefined.png);
@@ -27,11 +32,42 @@
     background-position: center;
     width: 250px;
     text-align: center;
-    margin-top: 5rem;
-
+    align-self: center;
+    position: relative;
+    z-index: 2;
 }
 .our_story h2{
     padding: 2rem;
     color:white;
     font-size: 22pt;
 }
+.vertical_line {
+    height: 220vh;
+    position: absolute;
+    z-index: 0;
+    top: 230px;
+    bottom: 0;
+    left: 50%;
+    width: 10px; 
+    background: linear-gradient(to bottom, #57558C 0%, #F4C078 35%, #0B8F99 60%, #57558C 100%); 
+    transform: translateX(-50%);
+  }
+
+  .our_history_image{
+    width: 80vw;
+    align-self: center;
+    padding: 1rem;
+  }
+  .history_mid_page div{
+    position: relative;
+    z-index: 3;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .history_mid_page h3{
+    font-size: 16pt;
+    margin: 1rem;
+  }
