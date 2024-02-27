@@ -13,22 +13,25 @@ function Team() {
 
   return (
     <div className='team_outer_shell'>
+
+      <div className='team_background_image'>
+        
       <div className='team_intro'>
         <h2>Start The Relational by Learning Us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. Nunc at pharetra purus. Nunc turpis lacus, mollis a sapien sit amet, sollicitudin hendrerit erat.</p>
         <div className='blue_splotch_container'>
-        <img className='blue_splotch' src={blue} alt='' />
+        <img className='blue_splotch' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/bluesplotch.png' alt='' />
         </div>
       </div>
 
     <div className='george_and_susan'>
         <div>
-        <img className='george' src={poster} alt='' />
+        <img className='george' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/headshot-scaled.jpg' alt='' />
         <h2>George Otero</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. Nunc at pharetra purus. Nunc turpis lacus, mollis a sapien sit amet, sollicitudin hendrerit erat.</p>
         </div>
         <div>
-        <img className='susan' src={poster} alt='' />
+        <img className='susan' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/headshot-scaled.jpg'alt='' />
         <h2>Susan Chambers-Otero</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. Nunc at pharetra purus. Nunc turpis lacus, mollis a sapien sit amet, sollicitudin hendrerit erat.</p>
         </div>
@@ -65,13 +68,12 @@ function Team() {
         <h3>Title 6</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. Nunc at pharetra purus. Nunc turpis lacus, mollis a sapien sit amet, sollicitudin hendrerit erat.</p>
       </div>
-      <div className='purplestroke_container'>
-        <img className="purplestroke" src={purple} alt='' />
-      </div>
+ 
     </div>
 
 
 
+      </div>
     </div>
   )
 }
