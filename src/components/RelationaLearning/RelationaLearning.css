@@ -28,7 +28,6 @@
 }
 .relationalearning_top h2{
     font-size: 26pt;
-    font-weight: 600;
     padding: 1rem;
     margin-top: 2rem;
 }
@@ -188,12 +187,12 @@ line-height: 1.5;
 font-size: 10pt;
 }
 .relationalearning_paper_download{
-    width: 30vw;
+
     margin: 1rem;
     align-self: center;
     border: none;
     background-color: #FDC677;
-    padding: 1rem;
+    padding: 1rem 4rem;
     font-family: Kaisei Decol;
 }
 .relationalearning_bottom_banner{
@@ -215,12 +214,11 @@ font-size: 10pt;
     line-height: 1.5;
 }
 .relationalearning_bottom_banner button{
-    width: 30vw;
     margin: 1rem;
     align-self: center;
     border: none;
     background-color: #D9D9D9;
-    padding: 1rem;
+    padding: 1rem 4rem;
     font-family: Kaisei Decol;
 }
 
@@ -339,7 +337,6 @@ font-size: 20pt;
     }
     .relationalearning_mid_inner{
         margin: 1rem;
-        padding: 3rem;
         width: 75vw;
     }
     .purple_paint{
@@ -386,10 +383,117 @@ font-size: 20pt;
         width: 20vw;
     }
     .relational_logo{
-        width: 20vw;
+        width: 25vw;
     }
     .relationalearning_mid_page img{
         width: 30vw;
+    }
+}
+@media (min-width: 1600px) {
+    .relationalearning_top_inner p{
+        margin: 2rem 8rem;
+    }
+    .relationalearning_bullets ul{
+        margin: 4rem 36rem;
+    }
+    .relationalearning_mid_page p{
+        padding: 2rem;
+    }
+    .relationalearning_mid_page h2{
+        font-size: 28pt;
+    }
+    .relationalearning_phases h2{
+        font-size: 28pt;
+    }
+    .relationalearning_phases h3{
+        font-size: 22pt;
+        padding: 2rem;
+    }
+    .relational_logo{
+        width: 30vw;
+    }
+}
+@media (min-width: 1800px) {
+    .relationalearning_bullets ul{
+        margin: 4rem 45rem;
+    }
+    .relationalearning_top_inner p{
+        margin: 2rem 12rem;
+    }
+    .orange_paint{
+        width: 12vw;
+    }
+    .orange_paint2{
+        width: 12vw;
+    }
+    .relationalearning_bullets li{
+        font-size: 16pt;
+    }
+    .relationalearning_top_inner p{
+        font-size: 16pt;
+    }
+    .relationalearning_mid_page p{
+        font-size: 16pt;
+    }
+    .relationalearning_mid_inner{
+        margin: 3rem;
+        width: 70vw;
+    }
+    .relationalearning_quote{
+        font-size: 16pt;
+        padding: 5rem 20rem;
+    }
+    .relationalearning_mid_page{
+        padding: 4rem;
+    }
+    .relationalearning_phases p{
+        font-size: 16pt;
+    }
+    .relationalearning_phases h3{
+        font-size: 24pt;
+    }
+    .relationalearning_phases h2{
+        font-size: 30pt;
+    }
+    .relationalearning_paper h3{
+        font-size: 16pt;
+        margin: 4rem 28rem;
+    }
+    .relationalearning_bottom_banner h2{
+        font-size: 22pt;
+    }
+    .relationalearning_bottom_banner p{
+        font-size: 16pt;
+    }
+    .relationalearning_paper_download{
+        font-size: 18pt;
+    }
+    .relationalearning_bottom_banner button{
+        font-size: 18pt;
+    }
+    .purple_paint{
+       width: 15vw;
+    }
+}
+
+@media (min-width: 2000px) {
+    .relationalearning_bullets ul{
+        margin: 4rem 50rem;
+    }
+    .orange_paint{
+        width: 10vw;
+    }
+    .orange_paint2{
+        width: 10vw;
+    }
+    .relationalearning_top h2{
+        font-size: 72pt;
+    }
+    .relationalearning_top_inner p{
+        margin: 2rem 16rem;
+    }
+    .relationalearning_bullets h3{
+        font-size: 26pt;
     }
 
 
