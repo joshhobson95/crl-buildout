@@ -61,13 +61,25 @@
   .history_mid_page div{
     position: relative;
     z-index: 3;
-    margin: 2rem;
+    margin: 1rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    
   }
   .history_mid_page h3{
     font-size: 16pt;
     margin: 1rem;
   }
+  .history_our_history{
+    background-color: #f4c078ef;
+  }
+  .southwest_to_outback{
+    background-color: #0b9099f3
+  }
+  .new_mexico_end{
+    background-color: #57558cfa;
+  }
+  

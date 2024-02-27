@@ -23,6 +23,7 @@ function History() {
 
       <div className='history_our_history'>
         <h3>Our History</h3>
+        <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/paintbrush2-e1709075164364.png'/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. Nunc at pharetra purus. Nunc turpis lacus, mollis a sapien sit amet, sollicitudin hendrerit erat. Etiam finibus non dui eget imperdiet.</p>
 
         {/* < img className='our_history_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/DSC_0255.jpg' alt=''/> */}
@@ -31,6 +32,7 @@ function History() {
 
       <div className='southwest_to_outback'>
         <h3>Southwest to Outback</h3>
+       
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. Nunc at pharetra purus. Nunc turpis lacus, mollis a sapien sit amet, sollicitudin hendrerit erat. Etiam finibus non dui eget imperdiet.</p>
         < img className='our_history_image' src={swtooutback} alt=''/>
       </div>
