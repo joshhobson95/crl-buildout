@@ -331,6 +331,7 @@ text-align: center;
 
 
 @media (min-width: 1024px) {
+    
     .home_top_text {
         position: absolute;
         top: 0;
