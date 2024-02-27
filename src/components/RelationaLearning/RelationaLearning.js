@@ -38,9 +38,14 @@ function RelationaLearning() {
 
           <div className='relationalearning_mid_page'> 
           <img className='relationalearning_graphic' src={circles} alt=''/>
+
+
+          <div className='relationalearning_mid_inner'>
           <h2>What is the strategy to make relationships the context for teaching and learning?</h2>
           <p>Getting people to recognize the wisdom of their own experience is the basis for building their capacity for inter-relating effectively in learning environments of all kinds. The method for building that capacity is rooted in the relational approach, in the context of the learning moment, in restoring a balance of instructing and educating.</p>
           <p>The RelationaLearning™ model outlined below suggests that all learning progresses through four levels of relationship. We are always in a relationship but the quality of that relationship and therefore the quality of learning varies greatly. As we move through each level, we can identify the added power that relationships can bring to our learning.</p>
+          </div>
+
           </div>
 
           <div className='relationalearning_quote'>
@@ -50,6 +55,9 @@ function RelationaLearning() {
           <div className='relationalearning_phases'>
 
             <h2>Synopsis Of The Four Phases</h2>
+
+
+            <div className='relationalearning_phases_inner'>
             <div className='phaseone'>
               <h3>Phase I: Recognition</h3>
               <p>At the recognition level (the level at which most teaching currently occurs) content is explained through lecture or attained by reading or downloading information from a computer. At this level, the memorization of facts can and often does occur. This information is of little value, however, unless learning is advanced to another level by applying the learning to a project or a problem, refining it through interaction. If not taken to higher relational levels, the learner has simply obtained facts for forgetting.</p>
@@ -68,6 +76,7 @@ function RelationaLearning() {
             <div className='phasefour'>
             <h3>Phase IV: Co-Creating</h3>
             <p>This level represents a call to the self, to find one’s own place, way and meaning in relating to the world personally and collectively. This is the highest level of learning and truly equates with RelationaLearning™. Unless learning is pursued to this level, it cannot be fully utilized. At this level, learning is shared with others in meaningful, productive ways that enhance the functioning of the learner, others, and the community. The learner is now part of a larger structure of personal freedom characterized by key elements from each phase: awareness, adaptability, interaction and conscious creation.</p>
+            </div>
             </div>
           </div>
             <div className='purple_paint_container'>

@@ -315,5 +315,82 @@ font-size: 20pt;
 .relationalearning_bottom_banner button{
     font-size: 16pt;
 }
+}
+
+@media (min-width: 1200px) {
+    .orange_paint{
+        width: 15vw;
+    }
+    .orange_paint2{
+        width: 15vw;
+    }
+    .relationalearning_bullets h3{
+        font-size: 22pt;
+    }
+    .relationalearning_bullets ul{
+        margin: 2rem 14rem;
+    }
+    .relationalearning_mid_page img{
+        width: 50vw;
+    }
+    .relationalearning_mid_page{
+        padding-top: 4rem;
+        flex-direction: row;
+    }
+    .relationalearning_mid_inner{
+        margin: 1rem;
+        padding: 3rem;
+        width: 75vw;
+    }
+    .purple_paint{
+        width: 25vw;
+    }
+}
+@media (min-width: 1400px) {
+    .relationalearning_bullets ul{
+        margin: 3rem 20rem;
+    }
+    .relationalearning_mid_page h2{
+        font-size: 22pt;
+    }
+    .relationalearning_quote{
+        padding: 5rem 10rem;
+    }
+}
+@media (min-width: 1600px) {
+    .relationalearning_bullets ul{
+        margin: 4rem 28rem;
+    }
+    .relationalearning_bullets h3{
+        font-size: 24pt;
+    }
+    .relationalearning_mid_page h2{
+        font-size: 24pt;
+        margin: 2rem;
+    }
+    .relationalearning_phases h2{
+        font-size: 24pt;
+        margin: 6rem;
+    }
+    .relationalearning_phases h3{
+        font-size: 20pt;
+    }
+    .purple_paint{
+        width: 20vw;
+    }
+    .relationalearning_phases_inner{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .relationalearning_phases_inner div{
+        width: 20vw;
+    }
+    .relational_logo{
+        width: 20vw;
+    }
+    .relationalearning_mid_page img{
+        width: 30vw;
+    }
+
 
 }
