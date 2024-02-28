@@ -1,5 +1,5 @@
 .contact_outer_shell{
-    height: 100vh;
+    height: auto;
     background-color: #57558C;
     color: white;
     font-family: Kaisei Decol;
@@ -8,9 +8,16 @@
 .contact_header{
     margin: 2rem;
     line-height: 1.5;
+    position: relative;
+    z-index: 2;
 }
 .contact_header h2{
  font-size: 26pt;
+ padding: 1rem;
+ text-align: center;
+}
+.contact_header p{
+ font-size: 12pt;
  padding: 1rem;
 }
 .contact_george_container{
@@ -20,22 +27,162 @@
 .contact_george{
     width: 60vw;
 }
+.contact_mid_page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.phone_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
+.email_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 .phone_icon{
     width: 10vw;
+    margin: 1rem;
 }
 .email_icon{
     width: 10vw;
+    margin: 1rem;
+}
+.contact_email_form{
+    background-color: #0B8F99;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    color: white;
+    font-family: Kaisei Decol;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 65vw;
+
+}
+.contact_email_form_shell{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_email_form button{
+    font-family: Kaisei Decol;
+    background-color: #57558C;
+    color: white;
+    padding: 1rem;
+    border: none;
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 12pt;
+}
+.contact_email_form h2{
+font-size: 14pt;
+padding: 0.75rem;
+padding-bottom: 2rem;
+text-align: center;
+}
+.contact_email_form input{
+    margin: .5rem;
+    border-radius: 5px;
+    border: none;
+}
+#firstName{
+    height: 2rem;
+}
+#lastName{
+    height: 2rem;
+}
+#email{
+    height: 2rem;
+}
+.contact_email_form div{
+    display: flex;
+    flex-direction: column;
+}
+.email_list{
+    padding-top: 2rem;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/chang-duong-Sj0iMtq_Z4w-unsplash.jpg);
+    background-size: 250% auto;
+    background-repeat:no-repeat;
+    padding-bottom: 5rem;
+
+}
+.email_list h2{
+    font-size: 20pt;
+    margin: 1rem;
+    text-align: center;
+}
+.email_list p{
+    margin: 3rem;
+}
+.contact_form_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_logo_container{
+    position: relative;
+    width: 90vw;
+    height: 10vh;
+}
+.contact_logo{
+    height: auto;
+    width: 40vw;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    opacity: 50%;
+}
+
+@media (min-width: 800px) {
+    .contact_header h2{
+        font-size: 32pt;
+    }
+    .contact_header p{
+        font-size: 16pt;
+    }
+    .phone_icon{
+        width: 12vw;
+    }
+    .phone_container p{
+        font-size: 18pt;
+    }
+    .email_icon{
+        width: 12vw;
+    }
+    .email_container p{
+        font-size: 18pt;
+    }
+    .email_list h2{
+        font-size: 28pt;
+    }
+    .email_list p{
+        font-size: 16pt;
+    }
+    .contact_email_form label{
+        font-size: 16pt;
+    }
+    .contact_george{
+        width: 50vw;
+    }
+}
+@media (min-width: 1024px) {
+    .contact_header{
+        display: flex;
+    }
+
 }
