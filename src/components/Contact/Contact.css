@@ -1,0 +1,41 @@
+.contact_outer_shell{
+    height: 100vh;
+    background-color: #57558C;
+    color: white;
+    font-family: Kaisei Decol;
+}
+
+.contact_header{
+    margin: 2rem;
+    line-height: 1.5;
+}
+.contact_header h2{
+ font-size: 26pt;
+ padding: 1rem;
+}
+.contact_george_container{
+    display: flex;
+    justify-content: center;
+}
+.contact_george{
+    width: 60vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phone_icon{
+    width: 10vw;
+}
+.email_icon{
+    width: 10vw;
+}

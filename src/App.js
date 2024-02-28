@@ -5,6 +5,7 @@ import Team from './components/Team/Team';
 import History from './components/History/History';
 import RelationaLearning from './components/RelationaLearning/RelationaLearning';
 import Resources from './components/Resources/Resources';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/history' element={<History />}/>
         <Route path='/relationalearning' element={<RelationaLearning/>}/>
         <Route path='/resources' element={<Resources />}/>
+        <Route path='/contact' element={<Contact />}/>
       </Routes>
      
     </div>

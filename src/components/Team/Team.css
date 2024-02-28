@@ -134,9 +134,13 @@
     }
   }
 
-  @media (min-width: 1400px) { 
+  @media (min-width: 1600px) { 
     .other_faculty{
       flex-wrap: wrap;
+      margin: 10rem;
+    }
+    .faculty{
+      padding: 2rem;
     }
 
     
