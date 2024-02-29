@@ -48,15 +48,15 @@ function RelationaLeadership() {
         </div>
         <div className='leadership_banner_item'>
             <h4>Lead your Team</h4>
-            <img className='lead_your_team_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-7.png' />
+            <img className='lead_your_team_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-7.png' alt=''/>
         </div>
         <div className='leadership_banner_item'>
             <h4>Teach with Passion</h4>
-            <img className='teach_with_passion_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-9.png'/>
+            <img className='teach_with_passion_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-9.png' alt=''/>
         </div>
         <div className='leadership_banner_item'>
             <h4>Strengthen Relationships</h4>
-            <img className='strengthen_relationships_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-8.png'/>
+            <img className='strengthen_relationships_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-8.png' alt=''/>
         </div>
      </div>
 
@@ -72,7 +72,7 @@ function RelationaLeadership() {
         </div>
 
         <div className='leadership_mid_page_quote'>
-            <h6>“The heart of our work is one on one with people-it’s about building relationships, it is not about meetings-it’s about conversations. —Robert Putnam-Better Together</h6>
+            <h6>“The heart of our work is one on one with people-it’s about building relationships, it is not about meetings-it’s about conversations. <br></br>—Robert Putnam-Better Together</h6>
         </div>
 
      </div>

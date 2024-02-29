@@ -19,37 +19,23 @@ function Resources() {
 
 
         <div className='resources_mid_page'>
-            <div className='resource_block'>
+        <div className='resource_block1'>
+    <div className='resource_block_inner'>
+        <div className="background-image"></div>
+        <div className='content-div'>
+            <h3>Resource Title</h3>
+            <p>Resource Description: something small to describe the content</p>
+        </div>
+    </div>
+</div>
+            <div className='resource_block2'>
               <h3>Resource Title</h3>
-              <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg' alt=''/>
               <p>Resource Description: someting small to describe the content</p>
-
             </div>
-            <div className='resource_block'>
+            <div className='resource_block3'>
               <h3>Resource Title</h3>
-              <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg' alt=''/>
               <p>Resource Description: someting small to describe the content</p>
-
             </div>
-            <div className='resource_block'>
-              <h3>Resource Title</h3>
-              <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg' alt=''/>
-              <p>Resource Description: someting small to describe the content</p>
-
-            </div>
-            <div className='resource_block'>
-              <h3>Resource Title</h3>
-              <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg' alt=''/>
-              <p>Resource Description: someting small to describe the content</p>
-
-            </div>
-            <div className='resource_block'>
-              <h3>Resource Title</h3>
-              <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg' alt=''/>
-              <p>Resource Description: someting small to describe the content</p>
-
-            </div>
-        
         </div>
 
 

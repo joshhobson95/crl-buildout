@@ -4,11 +4,15 @@
     flex-direction: column;
     text-align: center;
     margin-top: 6vh;
+    background-color: #E0CDB1;
 }
+
 .resources_top_background{
-    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/matt-briney-JClN4owv7pc-unsplash.jpg);
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/sincerely-media-IIIr1Hu6aY-unsplash-2.png);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 110vw;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
@@ -17,7 +21,7 @@
     margin: 1rem;
 }
 .resources_purple_top{
-    background-color: rgba(137, 43, 226, 0.327);
+    background-color: #57558c9d;
     color: white;
 }
 .resources_purple_top p{
@@ -30,12 +34,41 @@
     flex-direction: column;
 
 }
-.resource_block{
-    background-color: rgb(171, 162, 150);
-    width: 45vw;
+.resource_block1{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/jason-pofahl-rRmVB-gHZQc-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    width: 35vw;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+.resource_block2{
+
+    width: 35vw;
     padding: 2rem;
     margin: 1rem;
 }
+.resource_block3{
+
+    width: 35vw;
+    padding: 2rem;
+    margin: 1rem;
+}
+.resource_block_inner{
+    color: white;
+    background-color: #373935d7;
+    padding: 1rem 0rem;
+    margin-top: 6vh;
+}
+
+
+
+
 .resource_block img{
     width: 35vw;
 }
