@@ -38,6 +38,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 2rem;
 }
 
 .email_container{
@@ -45,6 +46,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 2rem;
 }
 
 
@@ -132,6 +134,7 @@ text-align: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 .contact_logo_container{
     position: relative;
@@ -148,9 +151,68 @@ text-align: center;
     opacity: 50%;
 }
 
+.phone_container a {
+    text-decoration: none; 
+    color: inherit;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+
+}
+.phone_container img.phone_icon {
+    margin-left: 20px;
+}
+.email_container a {
+    text-decoration: none; 
+    color: inherit; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+.email_container img.email_icon {
+    margin-left: 20px;
+}
+
+.phone_icon {
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+.phone_icon:hover {
+    animation: shake 0.3s ease-in-out; /* Apply the shake animation on hover */
+}
+
+@keyframes shake {
+    0% { transform: rotate(-5deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    75% { transform: rotate(5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.email_icon {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.email_icon:hover {
+    animation: woosh 0.5s ease-in-out alternate; /* Apply the woosh animation on hover */
+}
+
+@keyframes woosh {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+}
+.contact_form_text{
+    background-color: #1f1c1c85;
+    border-radius: 10px;
+    margin: 2rem;
+
+}
+
+
 @media (min-width: 800px) {
     .contact_header h2{
-        font-size: 32pt;
+        font-size: 36pt;
     }
     .contact_header p{
         font-size: 16pt;
@@ -184,5 +246,76 @@ text-align: center;
     .contact_header{
         display: flex;
     }
+    .contact_mid_page{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    .contact_email_form{
+        padding: 3rem;
+    }
+    .email_list{
+        background-size: 140%;
+    }
+    .contact_header h2{
+        text-align: left;
+    }
+    .contact_form_text{
+        width: 40%;
+    }
+    .contact_form_container{
+        justify-content: space-around;
+    }
+}
 
+
+@media (min-width: 1200px) {
+    .contact_form_container{
+        flex-direction: row;
+
+    }
+
+    .contact_form_text {
+        order: 2;
+        margin-right: 20px;
+    }
+    .contact_email_form {
+        order: 1;
+    }
+    .email_list{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .contact_george{
+        width: 30vw;
+    }
+    .email_icon{
+        width: 8vw;
+    }
+    .phone_icon{
+        width: 8vw;
+    }
+    .contact_logo{
+        width: 30vw;
+        left: 60%;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    .contact_header{
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1550px) {
+    .contact_header h2{
+        font-size: 46pt;
+    }
+    .phone_container p{
+        font-size: 20pt;
+    }
+    .email_container p{
+        font-size: 20pt;
+    }
 }

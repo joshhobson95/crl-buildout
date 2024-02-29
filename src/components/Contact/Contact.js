@@ -26,22 +26,27 @@ function Contact() {
 
 
 <div className='contact_mid_page'>
-            <div className='phone_container'>
-                <p> (505) 690-8123</p>
-                <img className='phone_icon' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/phonenemail-1.png' alt=''/>
-
-            </div>
-            <div className='email_container'>
-                <p>Info@Relationalearning.com</p>
-                <img className='email_icon' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/phonenemail-2.png' alt=''/>
-            </div>
+<div className='phone_container'>
+    <a className='phone_a_tag' href='tel:5056908123'>
+        <p> (505) 690-8123</p>
+        <img className='phone_icon' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/phonenemail-1.png' alt=''/>
+    </a>
 </div>
 
-          <div className='email_list'>
+<div className='email_container'>
+    <a href='mailto:Info@Relationalearning.com'>
+        <p>Info@Relationalearning.com</p>
+        <img className='email_icon' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/phonenemail-2.png' alt=''/>
+    </a>
+</div>
+</div>
+
+  <div className='email_list'>
 <div className='contact_form_container'>
+  <div className='contact_form_text'>
                 <h2>Sign Up For Our Email List</h2>
                 <p>And Stay Up To Date With The Cetner And All Our Offerings</p>
-
+    </div>
                     <form className='contact_email_form'>
                          <h2>Join Our Email List!</h2>
                   <div>
@@ -58,11 +63,7 @@ function Contact() {
                   </div>
                   <button type="submit" >Submit</button>
                 </form>
-</div>
-
-
-
-            
+          </div>
           </div>
 
             
