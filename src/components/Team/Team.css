@@ -75,6 +75,9 @@
     width: 600px;
     margin: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   .faculty h3{
     font-size: 18pt;
@@ -83,6 +86,10 @@
   .headshot{
     width: 60vw;
   }
+  .team_outer_shell img {
+    align-self: center;
+    width: 20vw;
+}
 
 
 
@@ -117,6 +124,15 @@
     .team_intro{
       margin: 2rem 8rem;
     }
+    .team_intro p{
+      font-size: 16pt;
+    }
+    .george_and_susan{
+      font-size: 16pt;
+    }
+    .faculty p{
+      font-size: 16pt;
+    }
   }
 
   @media (min-width: 1400px) {
@@ -132,6 +148,16 @@
     .team_outer_shell img{
       width: 30vw;
     }
+    .team_intro h2{
+      font-size: 32pt;
+    }
+    .george_and_susan h2{
+      font-size: 26pt;
+    }
+    .faculty h3{
+      font-size: 26pt;
+    }
+ 
   }
 
   @media (min-width: 1600px) { 
@@ -142,6 +168,21 @@
     .faculty{
       padding: 2rem;
     }
+    .george{
+      width: 35vw !important;
+    }
+    .susan{
+      width: 35vw !important;
+    }
 
+  }
+  @media (min-width: 1800px) { 
+    .george_and_susan p{
+      margin: 4rem 14rem;
+    }
+    .faculty{
+      margin: 8rem;
+    }
     
+
   }
