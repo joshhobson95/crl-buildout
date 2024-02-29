@@ -67,7 +67,7 @@ function RelationaLeadership() {
         <p>Our approach sees relational leadership as a developmental process that takes place on two separate but interdependent scales. These scales mirror the relational learning scale where relationships can be developed and progressed in four stages, (1) recognition, (2) understanding, (3) valuing, and finally (4) co-creating and co-sponsoring.
         In our approach leading relationally is developed by simultaneously increasing the leaders satisfaction, joy and happiness and their impact. A client will be able to uncover current patterns of engagement in their relationships. These patterns of relating to other reveal what stage of relating is dominate and then sensibilities and practices are developed to consciously take one to the highest levels of relationship. The chart below is a visual of this dynamic process.</p>
         </div>
-        <div>
+        <div className='leadership_graphic_container'>
             <img className='leadership_graphic' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Emerging-Connections-Chart-2023.png' alt=''/>
         </div>
 
@@ -82,24 +82,40 @@ function RelationaLeadership() {
         <h2>Characteristics Of RelationaLeadership</h2>
         <p>
         Relational leaders are skilled guides who engage others where they are on the learning continuum moving them from recognizing, understanding and valuing learning to reciprocal co-creation, a state where everyone is interdependent in productive learning and growth, joy and satisfaction.
-
+            <br></br>
+            <br></br>
         RelationaLeadership helps leaders value the connection with others above any result, action or outcome. It prepares leaders to focus on others and to pay careful attention to their own state of mind and speech, thereby creating a space for others to express their feelings, thoughts and experience.
+             <br></br>
+            <br></br>
         RelationaLeadership produces leaders who have the ability to ensure that everyone in every situation is seen, heard, respected and treated as an equal.
-
+        <br></br>
+            <br></br>
         Leaders that put the relationship first calm, nourish and uplift those around them to feel safe, secure, seen and heard. The relationship is what matters most to a relational leader.
         Relational leaders are strategic mindful communicators who are focused upon placing relationship first in motivating others to excel.
+        <br></br>
+            <br></br>
 
         Leaders who understand themselves are more capable of understanding others. Experience in self inquiry allows them to better understand other’s perceptions and experience. They understand to be understood. RelationaLeadership supports leaders in this on-going process of self-examination.
         RelationaLeadership directs leaders to analyze every interaction with others to ensure that the relationship comes first. They are skilled at focusing on others needs and they pay careful attention to their own speech helping others feel open to expressing their feelings. They are warm, genuine, empathic helpers who observe, listen and inquire how they might best lead with compassion and understanding.
+        <br></br>
+            <br></br>
 
         Relational leaders are seen and experienced as kind, caring, authentic, committed and purposeful human beings.
         RelationaLeadership helps leaders to be clear, consistent and caring. They don’t judge, insult or condemn. They tell the truth.
+        <br></br>
+            <br></br>
 
         A relational leader values the connection with others above any result or action they create. People before Programs is their motto. Their goal is to become aligned and affiliated with others in purpose and intent to create solidarity, community, impact and increased joy and happiness.
+        <br></br>
+            <br></br>
 
         RelationaLeadership teaches leaders to know and utilize all dimensions of human communication to establish a trustworthy and rich exchange.
+        <br></br>
+            <br></br>
 
         Relational leaders are skilled guides who engage others where they are on a learning continuum moving them from recognizing, understanding and valuing learning to reciprocal co-creation, a state where everyone is interdependent in productive learning and growth, joy and satisfaction.
+        <br></br>
+            <br></br>
         </p>
             <div className='orange_wide_paint_container'>
                     <img className='orange_wide_paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/orange-long.png' alt='' />
