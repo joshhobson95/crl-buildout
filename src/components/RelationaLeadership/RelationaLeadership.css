@@ -1,0 +1,119 @@
+.relationaleadership_outer_shell{
+    width: 100vw;
+    max-width: 100vw;
+    background-color: #F4F4F4;
+}
+.leadership_top_container {
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitylogo-2.png);
+    background-size: 60vw;
+    background-repeat: no-repeat;
+    background-position: -10vw 30vw;
+  }
+
+.lts_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    margin-top: -5vh;
+}
+.lts_text h2{
+    font-size: 22pt;
+}
+.lts_text p{
+    font-size: 12pt;
+    padding: 1rem;
+}
+.leadership_ul_container ul{
+    list-style-type: disc !important;
+    list-style: disc !important;
+    padding-left: 30px;
+}
+.leadership_ul_container li {
+    padding: .5rem;
+    list-style-type: disc !important;
+    list-style: disc !important;
+}
+.leadership_ul_container::marker {
+    content: initial;
+    color: initial; 
+}
+.leadership_top_image_container{
+    display: flex;
+    justify-content: center;
+}
+.leadership_top_image{
+    width: 80vw;
+    padding: 1rem;
+}
+.lts_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -100px;
+    margin-top: -100px;
+}
+.leadership_teal_stroke{
+    width: 90vw;
+}
+.leadership_icon_banner{
+    background-color: #FDC677;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px; 
+   padding: 1rem;
+}
+.leadership_banner_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.leadership_banner_item h4{
+    font-size: 14pt;
+    text-align: center;
+}
+.leadership_banner_item img{
+    width: 18vw;
+    padding: 1rem;
+}
+.lead_your_team_image{
+    width: 20vw !important;
+}
+.educate_better_image{
+    width: 16vw !important;
+}
+.leadership_graphic{
+    width: 80vw;
+}
+
+
+
+.leadership_lower_page{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.orange_wide_paint_container {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.orange_wide_paint {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
