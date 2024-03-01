@@ -2,8 +2,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
     margin-top: 6vh;
+    background-color: #F4F4F4;
+    max-width: 100vw;
+    padding-top: 5vh;
+    font-family: Kaisei Decol;
+    overflow: hidden;
+    overflow-x: hidden !important;
+    line-height: 1.5;
+    box-sizing: border-box;
     background-color: #E0CDB1;
 }
 
@@ -17,12 +24,14 @@
     padding-bottom: 4rem;
 }
 .resources_header{
-    font-size: 22pt;
+    font-size: 20pt;
     margin: 1rem;
+    text-align: center;
 }
 .resources_purple_top{
     background-color: #57558c9d;
     color: white;
+    text-align: center;
 }
 .resources_purple_top p{
     padding: 1rem 4rem;
@@ -32,6 +41,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 
 }
 .resource_block1{
@@ -40,30 +50,42 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 70vw;
-    width: 35vw;
+    width: 50vw;
     padding: 2rem;
     margin: 1rem;
     display: flex;
     justify-content: center;
-
 }
-.resource_block2{
 
-    width: 35vw;
+.resource_block2{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/jason-pofahl-rRmVB-gHZQc-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    width: 50vw;
     padding: 2rem;
     margin: 1rem;
 }
 .resource_block3{
-
-    width: 35vw;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/jason-pofahl-rRmVB-gHZQc-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    width: 50vw;
     padding: 2rem;
     margin: 1rem;
+}
+.resource_block_inner h3{
+    font-size: 12pt;
 }
 .resource_block_inner{
     color: white;
     background-color: #373935d7;
     padding: 1rem 0rem;
     margin-top: 6vh;
+    font-size: 10pt;
 }
 
 
@@ -78,4 +100,21 @@
 }
 .resource_block p{
     padding: 1rem;
+}
+.resource_green_paint_container{
+    overflow-x: hidden !important;
+    overflow: hidden;
+    max-width: 100vw;
+    position: relative;
+    z-index: 4;
+    height: 15vh;
+    margin-top: -5vh;
+}
+.resource_green_paint{
+    position: absolute;
+    transform: scaleY(-1);
+    width: 90vw;
+    z-index: 2;
+    top: 0px;
+    left: 200px;
 }
