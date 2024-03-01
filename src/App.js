@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import RelationaLeadership from './components/RelationaLeadership/RelationaLeadership';
 import Podcast from './components/Podcast/Podcast';
 import Publications from './components/Publications/Publications';
+import Coaching from './components/Coaching/Coaching';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/relationaleadership' element={<RelationaLeadership />}/>
         <Route path='/podcast' element={<Podcast />}/>
-        <Route path='/publications' element={<Publications/>}/>
+        <Route path='/publications' element={<Publications />}/>
+        <Route path='/coaching' element={<Coaching />}/>
       </Routes>
      
     </div>

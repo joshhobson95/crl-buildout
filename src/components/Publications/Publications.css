@@ -5,7 +5,9 @@
     padding-top: 5vh;
     font-family: Kaisei Decol;
     overflow: hidden;
+    overflow-x: hidden !important;
     line-height: 1.5;
+    box-sizing: border-box;
 }
 .publications_header_background{
     height: auto;
@@ -87,7 +89,8 @@
         margin: 1.5rem;
     }
     .publication_one{
-        width: 55vw;
+        width: 45vw;
+        padding: 4rem;
     }
 }
 
@@ -95,7 +98,7 @@
 
 @media (min-width: 1024px) {
     .publications_header_background h2{
-        font-size: 36pt;
+        font-size: 32pt;
     }
     .publications_header_background {
         height: auto;
@@ -108,16 +111,16 @@
         padding-bottom: 6vh;
     }
     .publication_one_container h3{
-        font-size: 26pt;
+        font-size: 24pt;
     }
     .publication_one_container p{
-        font-size: 18pt;
+        font-size: 16pt;
     }
     .publication_one_container span{
-        font-size: 18pt;
+        font-size: 16pt;
     }
     .publications_button{
-        font-size: 24pt;
+        font-size: 22pt;
     }
     .publications_price_container{
         padding: 2rem;
@@ -127,13 +130,13 @@
 
 @media (min-width: 1300px) {
     .publications_header_background h2{
-        font-size: 40pt;
+        font-size: 36pt;
     }
     .publication_one_container{
         flex-direction: row-reverse;
     }
     .publication_one{
-        width: 45vw;
+        width: 35vw;
     }
 }
 @media (min-width: 1550px) {
@@ -142,74 +145,74 @@
         padding: 6rem 1rem;
     }
     .publication_one{
-        width: 40vw;
+        width: 30vw;
     }
     .publication_one_container h3{
-        font-size: 30pt;
+        font-size: 26pt;
     }
     .publication_one_container p{
-        font-size: 22pt;
+        font-size: 18pt;
     }
     .publication_one_container span{
-        font-size: 20pt;
+        font-size: 16pt;
     }
     .publications_button{
-        font-size: 26pt;
+        font-size: 20pt;
+    }
+    .publications_top_container{
+        height: 45vh;
+        overflow: hidden;
     }
 }
 @media (min-width: 1800px) {
     .publications_header_background h2{
-        font-size: 46pt;
+        font-size: 40pt;
     }
     .publications_header_background{
         background-size: 90vw;
         background-position: -33vw -6vw;
     }
     .publication_one{
-        width: 35vw;
+        width: 30vw;
     }
     .publication_one_container h3{
-        font-size: 34pt;
+        font-size: 28pt;
     }
     .publication_one_container p{
-        font-size: 24pt;
+        font-size: 18pt;
     }
     .publication_one_container span{
-        font-size: 22pt;
+        font-size: 18pt;
     }
     .publications_button{
-        font-size: 30pt;
+        font-size: 24pt;
     }
     .publications_top_container{
-        height: 35vh;
+        height: 40vh;
         overflow: hidden;
     }
 }
 
 @media (min-width: 2000px) {
     .publication_one{
-        width: 30vw;
+        width: 25vw;
     }
     .publication_one_text{
         margin: 3.5rem;
     }
 }
-@media (min-width: 2400px) {
-    .publication_one_container{
-        margin: 6rem;
-    }
+
+
+@media (min-width: 2200px) {
     .publications_header_background{
         background-size: 75vw;
         background-position: -23vw -6vw;
     }
-}
-
-@media (min-width: 2800px) {
     .publication_one_container{
         margin: 10rem;
     }
     .publication_one{
-        width: 25vw;
+        width: 20vw;
     }
     .publication_one_text{
         margin: 6.5rem;
@@ -217,42 +220,32 @@
 
 }
 
-@media (min-width: 3000px) {
+@media (min-width: 2400px) {
+    .publication_one_container{
+        margin: 6rem;
+    }
+
     .publications_header_background{
         background-size: 50vw;
         background-position: 5vw -2vw;
     }
     .publication_one_container{
-        margin: 25rem;
+        margin: 20rem;
     }
     .publication_one{
-        width: 22vw;
+        width: 20vw;
     }
-    .publication_one_container h3{
-        font-size: 38pt;
-    }
-    .publication_one_container p{
-        font-size: 28pt;
-    }
+
     .publications_top_container{
         height: 50vh;
     }
-    .publication_one_container span{
-        font-size: 28pt;
-    }
-    .publications_button{
-    font-size: 32pt;
-    }
+
     .publications_price_container{
         padding: 4rem;
     }
 }
 
-@media (min-width: 3500px) {
-    .publication_one_container{
-        margin: 30rem 45rem;
-    }
-}
+
 
 
 
