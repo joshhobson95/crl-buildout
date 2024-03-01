@@ -10,6 +10,7 @@ import RelationaLeadership from './components/RelationaLeadership/RelationaLeade
 import Podcast from './components/Podcast/Podcast';
 import Publications from './components/Publications/Publications';
 import Coaching from './components/Coaching/Coaching';
+import Videos from './components/Videos/Videos';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/podcast' element={<Podcast />}/>
         <Route path='/publications' element={<Publications />}/>
         <Route path='/coaching' element={<Coaching />}/>
+        <Route path='/videos' element={<Videos />}/>
       </Routes>
      
     </div>

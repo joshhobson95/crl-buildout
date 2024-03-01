@@ -1,0 +1,217 @@
+.videos_outer_shell{
+    background-color: #D9D9D9;
+    max-width: 100vw;
+    padding-top: 5vh;
+    font-family: Kaisei Decol;
+    overflow: hidden;
+    overflow-x: hidden !important;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+.videos_header_container{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/NewStrokes4-3-e1709326510669.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position: -30vw 0vw;
+    text-align: center;
+    height: 10vh;
+}
+.videos_header_container h2{
+    font-size: 20pt;
+}
+.videos_top_shell{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitygreen.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position: 50vw 0vw;
+    padding-top: 10vh;
+    margin-top: -5vh;
+}
+.video_banner_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vh;
+    align-items: center;
+}
+.video_banner{
+    width: 100vw;
+}
+.video_banner_text{
+    text-align: center;
+    padding: 1rem;
+}
+.video_banner_text h2{
+    font-size: 18pt;
+}
+.video_banner_text p{
+    font-size: 12pt;
+}
+.video_container_text p{
+    font-size: 12pt;
+}
+
+
+
+.video_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.video_container iframe{
+    height: fit-content;
+    height: 40vh;
+    width: 80vw;
+    align-self: center;
+}
+.video_container_text{
+    text-align: center;
+    margin: 1rem;
+}
+.video_container_text h3{
+    font-size: 16pt;
+}
+
+@media (min-width: 750px) {
+    .videos_header_container h2{
+        font-size: 24pt;
+    }
+    .videos_top_shell{
+        margin-top: -10vh;
+    }
+    .video_banner_text h2{
+        font-size: 20pt;
+    }
+    .video_banner_text p{
+        font-size: 14pt;
+    }
+    .video_container_text h3{
+        font-size: 18pt;
+    }
+    .video_container_text p{
+        font-size: 14pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    .video_banner_image_container{
+        height: 40vh;
+        overflow: hidden;
+        position: relative;
+    }
+    .video_banner{
+        margin-top: -5vh;
+      }
+    .video_banner_text{
+        margin: 1rem;
+    }
+    .video_container_text{
+        margin: 2rem;
+    }
+}
+
+@media (min-width: 1111px) {
+    .video_banner{
+        margin-top: -10vh;
+      }
+}
+
+@media (min-width: 1200px) {
+    .video_banner_image_container{
+        height: 50vh;
+    }
+    .videos_top_shell{
+        background-size: 60vw;
+        background-position: 60vw 0vw;
+    }
+    .videos_header_container h2{
+        font-size: 28pt;
+    }
+    .videos_header_container{
+        background-size: 50vw;
+        background-position: -20vw 0vw;
+    }
+    .video_banner_text h2{
+        font-size: 24pt;
+    }
+    .video_banner_text p{
+        font-size: 16pt;
+        margin: 2rem 4rem;
+    }
+    .video_container_text h3{
+        font-size: 22pt;
+    }
+    .video_container iframe{
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1500px) {
+    .videos_top_shell{
+        background-size: 50vw;
+    }
+    .video_banner_text p{
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .video_container_text p{
+        font-size: 16pt;
+    }
+    .video_banner{
+        margin-top: -20vh;
+    }
+
+}
+@media (min-width: 1800px) {
+    .videos_header_container h2{
+        font-size: 32pt;
+    }
+    .videos_top_shell{
+        background-size: 40vw;
+        background-position: 70vw 0vw;
+    }
+    .video_banner_text{
+        padding: 2rem;
+        margin: 2rem;
+    }
+    .video_container iframe{
+        height: 60vh;
+    }
+    .video_container_text{
+        margin: 5rem 10rem;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .video_container iframe{
+        height: 60vh;
+        width: 70vw;
+    }
+    .videos_top_shell{
+        background-size: 30vw;
+        background-position: 80vw 0vw;
+    }
+    .video_container_text{
+        margin: 7rem 25rem;
+    }
+    .video_banner_text p{
+        font-size: 20pt;
+        margin: 2rem 10rem;
+    }
+    .video_banner_text h2{
+        font-size: 28pt;
+    }
+    .video_container_text h3{
+        font-size: 26pt;
+    }
+    .video_container_text p{
+        font-size: 18pt;
+    }
+    .video_banner{
+        margin-top: -30vh;
+    }
+}
