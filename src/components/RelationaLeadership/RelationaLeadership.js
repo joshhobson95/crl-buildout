@@ -21,6 +21,9 @@ function RelationaLeadership() {
         <p>Relational Leadership strategies will support each leaders’ ability to ensure their intentions have positive impacts for everyone’s learning and that their relationships increase joy, happiness, satisfaction and good will for every person.</p>
     </div>
 
+
+
+<div className='leadership_ul_and_image'>
         <div className='leadership_ul_container'>
             <ul>
                 <li>RelationaLeadership invites any leader to put the relationship first in who they are and what they do.</li>
@@ -36,8 +39,8 @@ function RelationaLeadership() {
 
         <div className='leadership_top_image_container'>
             <img className='leadership_top_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/matt-howard-A4iL43vunlY-unsplash.jpg' alt=''/>
-
         </div>
+</div>
      </div>
 
 
@@ -94,6 +97,7 @@ function RelationaLeadership() {
         Relational leaders are strategic mindful communicators who are focused upon placing relationship first in motivating others to excel.
         <br></br>
             <br></br>
+
 
         Leaders who understand themselves are more capable of understanding others. Experience in self inquiry allows them to better understand other’s perceptions and experience. They understand to be understood. RelationaLeadership supports leaders in this on-going process of self-examination.
         RelationaLeadership directs leaders to analyze every interaction with others to ensure that the relationship comes first. They are skilled at focusing on others needs and they pay careful attention to their own speech helping others feel open to expressing their feelings. They are warm, genuine, empathic helpers who observe, listen and inquire how they might best lead with compassion and understanding.
