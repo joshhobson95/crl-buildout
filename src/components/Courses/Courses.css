@@ -1,0 +1,211 @@
+.courses_outer_shell{
+    background-color: #FDFDF5;
+    max-width: 100vw;
+    padding-top: 5vh;
+    font-family: Kaisei Decol;
+    overflow: hidden;
+    overflow-x: hidden !important;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.courses_header_background{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/tealpaint3.png);
+    height: auto;
+    background-size: 140vw;
+    background-repeat: no-repeat;
+    background-position: 30vw -10vw;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 6vh;
+}
+.courses_header_background h2{
+    font-size: 18pt;
+    color: #FDFDF5; 
+    text-shadow: 
+        -1px -1px 0 #027B8A,  
+        1px -1px 0 #027B8A,
+        -1px 1px 0 #027B8A,
+        1px 1px 0 #027B8A;
+}
+.courses_header_image{
+    width: 100vw;
+}
+
+.teaching_relational_mind_iframe_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teaching_relational_mind_button{
+    padding: 1rem 2rem;
+    align-self: center;
+    margin: 1rem;
+    border: none;
+    background-color: #B86C36;
+    color: white;
+    font-size: 16pt;
+    font-family: Kaisei Decol;
+}
+
+.teaching_with_relational_mind{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/course_icon_1.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0vh 25%;
+    text-align: center;
+}
+.teaching_with_relational_mind_top{
+    margin: 2rem;
+}
+.teaching_with_relational_mind h3{
+    font-size: 16pt;
+    color: #027B8A;
+    font-weight: 700;
+}
+
+.teaching_relational_mind_iframe_container iframe{
+    width: 90vw;
+    height: 60vh;
+}
+
+.teaching_relational_mind_text{
+    text-align: center;
+    margin: 1rem;
+}
+.teaching_relational_mind_text h5{
+    font-size: 14pt;
+    color: #027B8A;
+    font-weight: 700;
+}
+.teaching_relational_mind_text span{
+    font-size: 11pt;
+    color: #57558C;
+    margin-bottom: 1rem;
+}
+.teaching_relational_mind_text p{
+padding: 0.5rem;
+}
+
+.teaching_relational_mind_iframe_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teaching_relational_mind_button{
+    padding: 1rem 2rem;
+    align-self: center;
+    margin: 1rem;
+    border: none;
+    background-color: #B86C36;
+    color: white;
+    font-size: 16pt;
+    font-family: Kaisei Decol;
+}
+/*908hgt34u-09[guj3094gj093j4ghn4309gh3094g4309]*/
+
+.leading_with_relational_mind{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/course_icon_2.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0vh 15%;
+    text-align: center;
+}
+.leading_with_relational_mind_top{
+    margin: 2rem;
+}
+.leading_with_relational_mind h3{
+    font-size: 16pt;
+    color: #A56654;
+    font-weight: 700;
+}
+
+.leading_relational_mind_iframe_container iframe{
+    width: 90vw;
+    height: 60vh;
+}
+
+.leading_relational_mind_text{
+    text-align: center;
+    margin: 1rem;
+}
+.leading_relational_mind_text h5{
+    font-size: 14pt;
+    color: #A56654;
+    font-weight: 700;
+}
+.leading_relational_mind_text span{
+    font-size: 11pt;
+    color: #57558C;
+    margin-bottom: 1rem;
+}
+.leading_relational_mind_text p{
+padding: 0.5rem;
+}
+.leading_relational_mind_button{
+    padding: 1rem 2rem;
+    align-self: center;
+    margin: 1rem;
+    border: none;
+    background-color: #B86C36;
+    color: white;
+    font-size: 16pt;
+    font-family: Kaisei Decol;
+}
+/* iuerthhgnve0rohgnerp0gre */
+/*908hgt34u-09[guj3094gj093j4ghn4309gh3094g4309]*/
+
+.living_with_relational_mind{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/course_icon_3.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 0vh 5%;
+    text-align: center;
+}
+.living_with_relational_mind_top{
+    margin: 2rem;
+}
+.living_with_relational_mind h3{
+    font-size: 16pt;
+    color: #697230;
+    font-weight: 700;
+}
+
+.living_relational_mind_iframe_container iframe{
+    width: 90vw;
+    height: 60vh;
+}
+
+.living_relational_mind_text{
+    text-align: center;
+    margin: 1rem;
+}
+.living_relational_mind_text h5{
+    font-size: 14pt;
+    color: #697230;
+    font-weight: 700;
+}
+.living_relational_mind_text span{
+    font-size: 11pt;
+    color: #57558C;
+    margin-bottom: 1rem;
+}
+.living_relational_mind_text p{
+padding: 0.5rem;
+}
+.living_relational_mind_button{
+    padding: 1rem 2rem;
+    align-self: center;
+    margin: 1rem;
+    border: none;
+    background-color: #B86C36;
+    color: white;
+    font-size: 16pt;
+    font-family: Kaisei Decol;
+}

@@ -11,6 +11,7 @@ import Podcast from './components/Podcast/Podcast';
 import Publications from './components/Publications/Publications';
 import Coaching from './components/Coaching/Coaching';
 import Videos from './components/Videos/Videos';
+import Courses from './components/Courses/Courses';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='/publications' element={<Publications />}/>
         <Route path='/coaching' element={<Coaching />}/>
         <Route path='/videos' element={<Videos />}/>
+        <Route path='/courses' element={<Courses />}/>
       </Routes>
      
     </div>
