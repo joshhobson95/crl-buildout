@@ -43,14 +43,86 @@ margin: 2rem 0rem;
 position: relative;
 z-index: 2;
 }
+
+.coaching_opener{
+    text-align: center;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitygreen.png);
+    background-size: 70vw;
+    background-position: -40vw 25vw;
+    background-repeat: no-repeat;
+}
+.coaching_opener h2{
+    font-size: 16pt;
+    margin: 1rem;
+}
+.coaching_opener p{
+    font-size: 12pt;
+    margin: 2rem;
+}
+
 .coaching_mid_page{
     position: relative;
     z-index: 3;
     margin-top: 15vh;
 }
 
+.coaching_icon_banner{
+    background-color: #D47A5F;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.coaching_icon_banner h3{
+    font-size: 14pt;
+    padding: 1rem;
+}
+.coaching_just_icons{
+    display: flex;
+    justify-content: space-around;
+
+    padding-bottom: 2rem;
+
+}
 .coaching_icon_banner img{
     width: 25vw ;
+}
+
+.coaching_closer{
+width: 100vw;
+text-align: center;
+margin-bottom: 4rem;
+}
+.coaching_closer_text{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/greenlogotransparent.png);
+    background-size: 70vw;
+    background-position: 60vw 30vw;
+    background-repeat: no-repeat;
+}
+.coaching_closer h3{
+    font-size: 16pt;
+    padding: 1rem;
+}
+.coaching_closer p{
+    font-size: 12pt;
+    padding: 2rem;
+}
+
+.coaching_image{
+    width: 75vw;
+}
+.coaching_image_container{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/newyellow.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 10vw 10vw;
+    padding-bottom: 4rem;
+}
+.coaching_just_icons h4{
+    padding: 1rem;
+    text-decoration: underline;
 }
 
 
@@ -58,10 +130,29 @@ z-index: 2;
 
 
 
+@media (min-width: 750px) {
+    .coaching_icon_banner img{
+        width: 15vw;
+    }
+    .coaching_closer_text{
+        background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/greenlogotransparent.png);
+        background-size: 40vw;
+        background-position: 80vw 0vw;
+        background-repeat: no-repeat;
+    }
+    .coaching_opener{
+        text-align: center;
+        background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitygreen.png);
+        background-size: 40vw;
+        background-position: -20vw 5vw;
+        background-repeat: no-repeat;
+    }
+    .coaching_image{
+        width: 60vw;
+    }
 
 
-
-
+}
 
 
 @media (min-width: 1024px) {
@@ -77,12 +168,82 @@ z-index: 2;
     margin: 2rem 4rem;
     font-size: 14pt;
     }
+    .coaching_opener h2{
+        font-size: 22pt;
+    }
+    .coaching_opener p{
+        font-size: 16pt;
+    }
+    .coaching_icon_banner h3{
+        font-size: 20pt;
+    }
+    .coaching_just_icons h4{
+        font-size: 16pt;
+    }
+    .coaching_closer h3{
+        font-size: 22pt;
+    }
+    .coaching_closer p{
+        font-size: 16pt;
+    }
+    .coaching_image_container{
+        background-size: 50vw;
+        background-position: 50vw 20vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .coaching_opener p{
+        margin: 2rem 6rem;
+    }
+    .coaching_closer p{
+        margin: 2rem 6rem;
+    }
+    .coaching_opener h2{
+        font-size: 24pt;
+    }
+    .coaching_closer h3{
+        font-size: 24pt;
+    }
+    .coaching_icon_banner h3{
+        margin: 1rem;
+    }
+    .coaching_just_icons h4{
+        font-size: 18pt;
+    }
+    .coaching_icon_banner img{
+        width: 10vw;
+    }
+    .coaching_image{
+        width: 50vw;
+    }
+    .coaching_image_container{
+        background-size: 40vw;
+        background-position: 45vw 20vw;
+    }
+
 }
 
 
 @media (min-width: 1600px) {
     .coaching_top_inner p{
         margin: 2rem 8rem;
+    }
+    .coaching_opener h2{
+        font-size: 26pt;
+    }
+    .coaching_opener p{
+      padding: 6rem 0rem;
+      margin: 2rem 10rem;
+      line-height: 2;
+    }
+    .coaching_closer h2{
+        font-size: 26pt;
+    }
+    .coaching_closer p{
+      padding: 6rem 0rem;
+      margin: 2rem 10rem;
+      line-height: 2;
     }
 }
 
@@ -93,6 +254,15 @@ z-index: 2;
     }
     .coaching_top_inner p{
         font-size: 16pt;
+    }
+    .coaching_just_icons h4{
+        font-size: 22pt;
+    }
+    .coaching_icon_banner h3{
+        font-size: 26pt;
+    }
+    .coaching_opener p{
+        margin: 1rem 24rem;
     }
 }
 
