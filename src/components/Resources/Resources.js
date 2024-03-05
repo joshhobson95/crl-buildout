@@ -8,15 +8,16 @@ function Resources() {
   return (
     <div className='resources_outer_shell'>
 
-        <h2 className='resources_header'>Resources</h2>
-        <div className='resources_top_background'>
-        <div className='resources_purple_top'>
-            <p>Dive into Relational Learning with our curated resources at the Center for Relational Learning. Explore articles, webinars, and more to grow personally and professionally. Start your journey today!</p>
-        </div>
-        </div>
-        <div className='resource_green_paint_container'>
-        <img className='resource_green_paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/paintbrush1-41.png' alt=''/>
-        </div>
+    <div class='resources_top_background'>
+            <div class='resources_top'>       
+                <h2>Relational Resources</h2>
+                <div class='resources_top_inner'>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. 
+                    </p>
+                </div>
+            </div>
+    </div>
 
 
 
