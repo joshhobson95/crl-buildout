@@ -1,36 +1,52 @@
 .courses_outer_shell{
     background-color: #FDFDF5;
     max-width: 100vw;
-    padding-top: 5vh;
     font-family: Kaisei Decol;
     overflow: hidden;
     overflow-x: hidden !important;
     line-height: 1.5;
     box-sizing: border-box;
+
+}
+.courses_top_background {
+    position: relative; 
 }
 
-.courses_header_background{
-    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/tealpaint3.png);
-    height: auto;
-    background-size: 140vw;
-    background-repeat: no-repeat;
-    background-position: 30vw -10vw;
+.courses_top_background::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/03/matt-duncan-IUY_3DvM__w-unsplash-e1709668696996.jpg');
+    background-size: cover; 
+    background-position: center; 
+    filter: brightness(0.8); 
+    z-index: 0;
+}
+.courses_top{
+    color: white;
     text-align: center;
-    padding-top: 3vh;
-    padding-bottom: 6vh;
 }
-.courses_header_background h2{
-    font-size: 18pt;
-    color: #FDFDF5; 
-    text-shadow: 
-        -1px -1px 0 #027B8A,  
-        1px -1px 0 #027B8A,
-        -1px 1px 0 #027B8A,
-        1px 1px 0 #027B8A;
+.courses_top h2{
+    position: relative;
+    font-size: 26pt;
+    padding: 1rem;
+    padding-top: 2rem;
+    z-index: 1;
 }
-.courses_header_image{
-    width: 100vw;
+.courses_top_inner{
+background-color: #fdc577c9;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+position: relative;
+z-index: 2;
 }
+
+
+
 /* TEACHING */
 
 
@@ -43,6 +59,7 @@
 }
 .teaching_with_relational_mind_top{
     margin: 2rem;
+    margin-top: 4rem;
 }
 .teaching_with_relational_mind h3{
     font-size: 16pt;
@@ -191,14 +208,16 @@ padding: 0.5rem;
 .teaching_with_relational_mind p{
     font-size: 12pt;
 }
-
+.courses_mid_page{
+    position: relative;
+    z-index: 3;
+    margin-top: 8rem;
+}
 
 
 
 @media (min-width: 750px) {
-    .courses_header_background h2{
-        font-size: 26pt;
-    }
+
     .teaching_with_relational_mind h3{
         font-size: 18pt;
         margin: 1rem;
@@ -207,10 +226,7 @@ padding: 0.5rem;
         font-size: 14pt;
         margin: 1rem;
     }
-    .courses_header_image_container{
-        height: 40vh;
-        overflow: hidden;
-    }
+
     .teaching_relational_mind_text h5{
         font-size: 18pt;
     }
@@ -231,10 +247,7 @@ padding: 0.5rem;
         font-size: 14pt;
         margin: 1rem;
     }
-    .courses_header_image_container{
-        height: 40vh;
-        overflow: hidden;
-    }
+
     .leading_relational_mind_text h5{
         font-size: 18pt;
     }
@@ -255,10 +268,7 @@ padding: 0.5rem;
         font-size: 14pt;
         margin: 1rem;
     }
-    .courses_header_image_container{
-        height: 40vh;
-        overflow: hidden;
-    }
+
     .living_relational_mind_text h5{
         font-size: 18pt;
     }
@@ -285,11 +295,20 @@ padding: 0.5rem;
 
 
 @media (min-width: 1024px) {
-    .courses_header_background h2{
-        font-size: 30pt;
+    .courses_top_background {
+        height: 40vh;
     }
-    .courses_header_background{
-        background-position: 30vw -15vw;
+    .courses_top h2{
+        font-size: 66pt;
+        font-weight: 500;
+        padding-top: 8vh;
+    }
+    .courses_top_inner p{
+    margin: 2rem 4rem;
+    font-size: 14pt;
+    }
+    .courses_mid_page{
+        margin-top: 16rem;
     }
     .teaching_with_relational_mind{
         background-position: 0vh 0%;
@@ -389,15 +408,11 @@ padding: 0.5rem;
     .living_relational_mind_text{
         margin: 4rem;
     }
-    .courses_header_background h2{
-        font-size: 36pt;
-    }
+
 }
 
 @media (min-width: 1400px) {
-    .courses_header_image_container img{
-        margin-top: -300px;
-    }
+
 
     .teaching_relational_mind_iframe_container{
         display: flex;
@@ -497,15 +512,22 @@ padding: 0.5rem;
         background-size: 70vw;
     }
 
-    .courses_header_background{
-        background-size: 58vw;
-        background-position: 34vw -3vw;
-    }
 
 }
 
+@media (min-width: 1600px) {
+    .courses_top_inner p{
+        margin: 2rem 8rem;
+    }
+}
 
 @media (min-width: 1800px) {
+    .courses_top_inner p{
+        margin: 2rem 12rem;
+    }
+    .courses_top_inner p{
+        font-size: 16pt;
+    }
     .teaching_relational_mind_text{
         width: 45vw;
     }
@@ -532,5 +554,15 @@ padding: 0.5rem;
     }
     .living_with_relational_mind{
         background-size: 42vw;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    .courses_top h2{
+        font-size: 72pt;
+    }
+    .courses_top_inner p{
+        margin: 2rem 16rem;
     }
 }

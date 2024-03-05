@@ -7,12 +7,18 @@ function Courses() {
 
     <div className='courses_outer_shell'>
 
-            <div className='courses_header_background'>
-                    <h2>Relational Courses</h2>
+          
+
+<div class='courses_top_background'>
+        <div class='courses_top'>       
+            <h2>Relational Courses</h2>
+            <div class='courses_top_inner'>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. 
+                </p>
             </div>
-            <div className='courses_header_image_container'>
-                <img className='courses_header_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/matt-duncan-IUY_3DvM__w-unsplash.jpg' alt='' />
-            </div>
+        </div>
+</div>
 
     <div className='courses_mid_page'>
 
@@ -34,7 +40,7 @@ function Courses() {
                                 <p>Level: Beginner</p>
                                 <p>Pricing: $99.99 </p>
                                 <p>(90 day access)</p>
-                        <a href='https://www.learndesk.us/checkout/single?id=5552815910944768&currency=USD'>
+                        <a href='https://www.learndesk.us/class/4592070314426368/relational-teaching?ref=embed'>
                             <button className='teaching_relational_mind_button'>Buy Now</button>
                         </a>
                     </div>
@@ -60,7 +66,7 @@ function Courses() {
                                 <p>Level: Beginner</p>
                                 <p>Pricing: $99.99 </p>
                                 <p>(90 day access)</p>
-                        <a href='https://www.learndesk.us/checkout/single?id=6462099075104768&currency=USD'>
+                        <a href='https://www.learndesk.us/class/5982348278497280/relationalmind?ref=embed'>
                             <button className='leading_relational_mind_button'>Buy Now</button>
                         </a>
                     </div>
@@ -89,7 +95,7 @@ function Courses() {
                                 <p>Level: Beginner</p>
                                 <p>Pricing: $99.99 </p>
                                 <p>(90 day access)</p>
-                        <a href='https://www.learndesk.us/checkout/single?id=4508413344088064&currency=USD'>
+                        <a href='https://www.learndesk.us/class/5555669782495232/relationallife?ref=embed'>
                             <button className='living_relational_mind_button'>Buy Now</button>
                         </a>
                     </div>

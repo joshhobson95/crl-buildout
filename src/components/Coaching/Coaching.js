@@ -10,6 +10,12 @@ function Coaching() {
 
         <div className='coaching_header_container'>
             <h2>Coaching And Consulting</h2>
+
+	
+
+
+
+
         </div>
         
     </div>

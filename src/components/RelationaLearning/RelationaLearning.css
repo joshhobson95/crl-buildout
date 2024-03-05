@@ -10,7 +10,7 @@
 }
 
 .relationalearning_top_background::before {
-    content: ""; /* Create a pseudo-element */
+    content: ""; 
     position: absolute;
     top: 0;
     left: 0;
