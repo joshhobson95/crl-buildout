@@ -78,6 +78,10 @@ z-index: 2;
     text-align: center;
     background-color: #d9d9d9;
     padding: 2rem 3rem;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/NewerTeal.png);
+    background-size: 120vw;
+    background-repeat: no-repeat;
+    background-position: -65vw -25vw;
 }
 .programs_mid_banner h2{
     font-size: 18pt;
@@ -216,6 +220,10 @@ z-index: 2;
     .programs_options_outro p{
         font-size: 16pt;
     }
+    .programs_mid_banner {
+        background-size: 80vw;
+        background-position: -45vw 0vw;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -243,15 +251,32 @@ z-index: 2;
     .programs_options_outro p{
         margin: 2rem 6rem;
     }
+    .programs_mid_banner {
+        background-size: 60vw;
+        background-position: -30vw 0vw;
+    }
+}
 
 
-
+@media (min-width: 1400px) {
+    .programs_mid_intro{
+        background-size: 40vw;
+        background-position: -15vw 0vw;
+    }
+    .programs_options_outro{
+        background-size: 40vw;
+        background-position: 70vw 0vw;
+    }
 }
 
 
 @media (min-width: 1600px) {
     .programs_top_inner p{
         margin: 2rem 8rem;
+    }
+    .programs_mid_banner {
+        background-size: 50vw;
+        background-position: -25vw 0vw;
     }
 }
 
@@ -263,7 +288,44 @@ z-index: 2;
     .programs_top_inner p{
         font-size: 16pt;
     }
+    .programs_mid_intro h2{
+        margin: 5rem 10rem;
+        font-size: 28pt;
+    }
+    .programs_mid_intro p{
+        margin: 5rem 10rem;
+        font-size: 18pt;
+    }
+    .programs_mid_banner h2{
+        font-size: 28pt;
+    }
+    .programs_mid_banner li{
+        font-size: 18pt;
+    }
+    .programs_mid_options h2{
+        font-size: 28pt;
+        margin: 4rem;
+    }
+    .programs_option_one h3{
+        font-size: 24pt;
+    }
+    .programs_option_two h3{
+        font-size: 24pt;
+    }
+    .programs_option_three h3{
+        font-size: 24pt;
+    }
+    .programs_options_outro p{
+        font-size: 18pt;
+        margin: 5rem 10rem;
+    }
+    .programs_mid_banner {
+        background-size: 40vw;
+        background-position: -25vw 0vw;
+    }
 }
+
+
 
 
 @media (min-width: 2000px) {
@@ -274,4 +336,5 @@ z-index: 2;
     .programs_top_inner p{
         margin: 2rem 16rem;
     }
+
 }
