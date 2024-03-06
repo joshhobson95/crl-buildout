@@ -12,6 +12,7 @@ import Publications from './components/Publications/Publications';
 import Coaching from './components/Coaching/Coaching';
 import Videos from './components/Videos/Videos';
 import Courses from './components/Courses/Courses';
+import Programs from './components/Programs/Programs';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path='/coaching' element={<Coaching />}/>
         <Route path='/videos' element={<Videos />}/>
         <Route path='/courses' element={<Courses />}/>
+        <Route path='/programs' element={<Programs />}/>
       </Routes>
      
     </div>

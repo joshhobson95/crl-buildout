@@ -1,0 +1,247 @@
+.programs_outer_shell{
+    background-color: #FDFDF5;
+    max-width: 100vw;
+    font-family: Kaisei Decol;
+    overflow: hidden;
+    overflow-x: hidden !important;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+
+.programs_top_background {
+    position: relative; 
+}
+
+.programs_top_background::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/03/matt-duncan-IUY_3DvM__w-unsplash-e1709668696996.jpg');
+    background-size: cover; 
+    background-position: center; 
+    filter: brightness(0.8); 
+    z-index: 0;
+
+}
+.programs_top{
+    color: white;
+    text-align: center;
+}
+.programs_top h2{
+    position: relative;
+    font-size: 26pt;
+    padding: 1rem;
+    padding-top: 2rem;
+    z-index: 1;
+}
+.programs_top_inner{
+background-color: #d47a5fb2;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+position: relative;
+z-index: 2;
+}
+
+
+.programs_mid_page{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.programs_mid_intro{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/greenlogotransparent.png);
+    background-size: 60vw;
+    background-position: -30vw 0vw;
+    background-repeat: no-repeat;
+margin: 1rem;
+}
+.programs_mid_intro h2{
+    font-size: 18pt;
+    margin: 1rem;
+}
+.programs_mid_intro p{
+    font-size: 12pt;
+    margin: 1rem;
+}
+
+
+
+.programs_mid_banner{
+    margin: 2rem 0rem;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+.programs_mid_banner h2{
+    font-size: 18pt;
+    margin: 2rem;
+}
+.programs_mid_banner li{
+    font-size: 12pt;
+    padding: 1.5rem;
+}
+
+
+.programs_mid_options{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.programs_options{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.programs_mid_options h2{
+    font-size: 18pt;
+}
+
+
+
+.programs_option_one h3{
+    font-size: 14pt;
+    margin: 1rem;
+}
+.programs_option_two h3{
+    font-size: 14pt;
+    margin: 1rem;
+}
+.programs_option_three h3{
+    font-size: 14pt;
+    margin: 1rem;
+}
+.programs_option_one{
+    margin: 1.5rem;
+}
+.programs_option_two{
+    margin: 1.5rem;
+}
+.programs_option_three{
+    margin: 1.5rem;
+}
+.programs_option_one_img{
+    width: 70vw;
+}
+.programs_option_two_img{
+    width: 70vw;
+}
+.programs_option_three_img{
+    width: 70vw;
+}
+
+.programs_options_outro{
+    margin: 2rem;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitylogo-2.png);
+    background-size: 60vw;
+    background-position: 55vw 50vw;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 750px) {
+    .programs_option_one_img{
+        width: 55vw;
+    }
+    .programs_option_two_img{
+        width: 55vw;
+    }
+    .programs_option_three_img{
+        width: 55vw;
+    }
+    .programs_option_one h3{
+        font-size: 16pt;
+    }
+    .programs_option_two h3{
+        font-size: 16pt;
+    }
+    .programs_option_three h3{
+        font-size: 16pt;
+    }
+    .programs_options_outro{
+
+        background-size: 60vw;
+        background-position: 50vw 0vw;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .programs_top_background {
+        height: 40vh;
+    }
+    .programs_top h2{
+        font-size: 66pt;
+        font-weight: 500;
+        padding-top: 8vh;
+    }
+    .programs_top_inner p{
+    margin: 2rem 4rem;
+    font-size: 14pt;
+    }
+    .programs_mid_intro h2{
+        font-size: 24pt;
+    }
+    .programs_mid_intro p{
+        font-size: 16pt;
+    }
+    .programs_mid_banner h2{
+        font-size: 24pt;
+    }
+    .programs_mid_banner li{
+        font-size: 16pt;
+    }
+    .programs_mid_options h2{
+        font-size: 24pt;
+    }
+    .programs_option_one h3{
+        font-size: 20pt;
+    }
+    .programs_option_two h3{
+        font-size: 20pt;
+    }
+    .programs_option_three h3{
+        font-size: 20pt;
+    }
+    .programs_options_outro p{
+        font-size: 16pt;
+    }
+}
+
+
+
+@media (min-width: 1600px) {
+    .programs_top_inner p{
+        margin: 2rem 8rem;
+    }
+}
+
+
+@media (min-width: 1800px) {
+    .programs_top_inner p{
+        margin: 2rem 12rem;
+    }
+    .programs_top_inner p{
+        font-size: 16pt;
+    }
+}
+
+
+@media (min-width: 2000px) {
+
+    .programs_top h2{
+        font-size: 72pt;
+    }
+    .programs_top_inner p{
+        margin: 2rem 16rem;
+    }
+}
