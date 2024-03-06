@@ -67,7 +67,7 @@ z-index: 2;
 }
 
 .coaching_icon_banner{
-    background-color: #D47A5F;
+    background-color: #fdc677;
     display: flex; 
     flex-direction: column;
     text-align: center;
@@ -80,7 +80,7 @@ z-index: 2;
 .coaching_just_icons{
     display: flex;
     justify-content: space-around;
-
+    flex-direction: column;
     padding-bottom: 2rem;
 
 }
@@ -124,7 +124,15 @@ margin-bottom: 4rem;
     padding: 1rem;
     text-decoration: underline;
 }
-
+.calendly_container_outer h2{
+    font-size: 16pt;
+    text-align: center;
+    margin: 1rem;
+}
+.calendly_container_outer p{
+    font-size: 12pt;
+    text-align: center;
+}
 
 
 
@@ -149,6 +157,9 @@ margin-bottom: 4rem;
     }
     .coaching_image{
         width: 60vw;
+    }
+    .coaching_just_icons{
+        flex-direction: row;
     }
 
 
@@ -190,6 +201,13 @@ margin-bottom: 4rem;
         background-size: 50vw;
         background-position: 50vw 20vw;
     }
+    .calendly_container_outer h2{
+        font-size: 22pt;
+        margin: 1rem;
+    }
+    .calendly_container_outer p{
+        font-size: 16pt;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -221,6 +239,10 @@ margin-bottom: 4rem;
         background-size: 40vw;
         background-position: 45vw 20vw;
     }
+    .calendly_container_outer h2{
+        font-size: 24pt;
+    }
+
 
 }
 
@@ -245,6 +267,10 @@ margin-bottom: 4rem;
       margin: 2rem 10rem;
       line-height: 2;
     }
+    .calendly_container_outer h2{
+        font-size: 26pt;
+    }
+
 }
 
 
