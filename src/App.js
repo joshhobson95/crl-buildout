@@ -13,6 +13,7 @@ import Coaching from './components/Coaching/Coaching';
 import Videos from './components/Videos/Videos';
 import Courses from './components/Courses/Courses';
 import Programs from './components/Programs/Programs';
+import History2 from './components/History2/History2';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/team' element={<Team />}/>
         <Route path='/history' element={<History />}/>
+        <Route path='/history2' element={<History2 />}/>
         <Route path='/relationalearning' element={<RelationaLearning/>}/>
         <Route path='/resources' element={<Resources />}/>
         <Route path='/contact' element={<Contact />}/>

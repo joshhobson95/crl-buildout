@@ -17,7 +17,7 @@
     position: relative;
 }
 .sunset_image{
-    background-image: url(../../assets/sunset.jpg);
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg);
     background-size: cover;
     background-position: center;
     width: 100vw;
