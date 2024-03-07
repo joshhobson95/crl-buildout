@@ -9,22 +9,26 @@ function RelationaLeadership() {
   return (
 
 
-    <div className='relationaleadership_outer_shell'>
+    <div class='relationaleadership_outer_shell'>
 
 
-    <div className='leadership_top_container'>
-    <div className='lts_container'>
-    <img className='leadership_teal_stroke' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Untitled-design6.png' alt='' />
-    </div>
-    <div className='lts_text'>
-        <h2>RelationaLeadership</h2>
-        <p>Relational Leadership strategies will support each leaders’ ability to ensure their intentions have positive impacts for everyone’s learning and that their relationships increase joy, happiness, satisfaction and good will for every person.</p>
-    </div>
+        <div class='relationaleadership_top_background'>
+                <div class='relationaleadership_top'>       
+                    <h2>RelationaLeadership</h2>
+                    <div class='relationaleadership_top_inner'>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac elit leo. Donec sit amet pharetra nunc, sit amet tincidunt lorem. Morbi vel justo eu leo finibus commodo a at lectus. Mauris non est feugiat, dapibus ipsum ultrices, viverra lorem. 
+                        </p>
+                    </div>
+                </div>
+        </div>
 
 
 
-<div className='leadership_ul_and_image'>
-        <div className='leadership_ul_container'>
+
+
+        <div class='leadership_ul_and_image'>
+        <div class='leadership_ul_container'>
             <ul>
                 <li>RelationaLeadership invites any leader to put the relationship first in who they are and what they do.</li>
                 <li>RelationaLeadership helps people understand the why, what and how of leading relationally.</li>
@@ -37,51 +41,51 @@ function RelationaLeadership() {
 
 
 
-        <div className='leadership_top_image_container'>
-            <img className='leadership_top_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/matt-howard-A4iL43vunlY-unsplash.jpg' alt=''/>
+        <div class='leadership_top_image_container'>
+            <img class='leadership_top_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/javier-allegue-barros-0nOP5iHVaZ8-unsplash.jpg' alt=''/>
         </div>
 </div>
-     </div>
 
 
-     <div className='leadership_icon_banner'>
-        <div className='leadership_banner_item'>
+
+     <div class='leadership_icon_banner'>
+        <div class='leadership_banner_item'>
             <h4>Inspire Change</h4>
-            <img className='educate_better_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-11.png' alt=''/>
+            <img class='educate_better_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-11.png' alt=''/>
         </div>
-        <div className='leadership_banner_item'>
+        <div class='leadership_banner_item'>
             <h4>Lead your Team</h4>
-            <img className='lead_your_team_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-7.png' alt=''/>
+            <img class='lead_your_team_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-7.png' alt=''/>
         </div>
-        <div className='leadership_banner_item'>
+        <div class='leadership_banner_item'>
             <h4>Teach with Passion</h4>
-            <img className='teach_with_passion_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-9.png' alt=''/>
+            <img class='teach_with_passion_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-9.png' alt=''/>
         </div>
-        <div className='leadership_banner_item'>
+        <div class='leadership_banner_item'>
             <h4>Strengthen Relationships</h4>
-            <img className='strengthen_relationships_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-8.png' alt=''/>
+            <img class='strengthen_relationships_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/A0-8.png' alt=''/>
         </div>
      </div>
 
-     <div className='leadership_mid_page'>
+     <div class='leadership_mid_page'>
 
-        <div className='leadership_mid_page_text'>
+        <div class='leadership_mid_page_text'>
         <h2>RelationaLeadership Model</h2>
         <p>Our approach sees relational leadership as a developmental process that takes place on two separate but interdependent scales. These scales mirror the relational learning scale where relationships can be developed and progressed in four stages, (1) recognition, (2) understanding, (3) valuing, and finally (4) co-creating and co-sponsoring.
         In our approach leading relationally is developed by simultaneously increasing the leaders satisfaction, joy and happiness and their impact. A client will be able to uncover current patterns of engagement in their relationships. These patterns of relating to other reveal what stage of relating is dominate and then sensibilities and practices are developed to consciously take one to the highest levels of relationship. The chart below is a visual of this dynamic process.</p>
         </div>
-        <div className='leadership_graphic_container'>
-            <img className='leadership_graphic' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Emerging-Connections-Chart-2023.png' alt=''/>
+        <div class='leadership_graphic_container'>
+            <img class='leadership_graphic' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Emerging-Connections-Chart-2023.png' alt=''/>
         </div>
 
-        <div className='leadership_mid_page_quote'>
+        <div class='leadership_mid_page_quote'>
             <h6>“The heart of our work is one on one with people-it’s about building relationships, it is not about meetings-it’s about conversations. <br></br>—Robert Putnam-Better Together</h6>
         </div>
 
      </div>
 
 
-     <div className='leadership_lower_page'>
+     <div class='leadership_lower_page'>
         <h2>Characteristics Of RelationaLeadership</h2>
         <p>
         Relational leaders are skilled guides who engage others where they are on the learning continuum moving them from recognizing, understanding and valuing learning to reciprocal co-creation, a state where everyone is interdependent in productive learning and growth, joy and satisfaction.
@@ -121,8 +125,8 @@ function RelationaLeadership() {
         <br></br>
             <br></br>
         </p>
-            <div className='orange_wide_paint_container'>
-                    <img className='orange_wide_paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/orange-long.png' alt='' />
+            <div class='orange_wide_paint_container'>
+                    <img class='orange_wide_paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/orange-long.png' alt='' />
             </div>
      </div>
 

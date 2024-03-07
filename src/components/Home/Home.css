@@ -76,6 +76,7 @@
     font-family: Kaisei Decol;
     margin: 1rem;
     line-height: 1.5;
+    font-size: 12pt;
 }
 .blog_image{
     height: 100px;
@@ -159,6 +160,7 @@ width: 45vw;
 line-height: 1.5;
 position: relative;
 z-index: 3;
+font-size: 12pt;
 }
 .CRL_for_all h3{
     font-weight: 500;
@@ -247,6 +249,7 @@ z-index: 3;
     margin: 1rem;
     line-height: 1.5;
     text-align: center;
+    font-size: 12pt;
 }
 .global_bottom{
     display: flex;
@@ -315,9 +318,7 @@ text-align: center;
 .gradient_bottom_page{
     background-image: linear-gradient( #D9d9d952, rgba(87, 85, 140, 0.58));
 }
-/* .home_email_div{
-    background-image: linear-gradient( rgba(255, 255, 255, 1), rgba(87, 85, 140, 0.58));
-} */
+
 .booksplash{
     width: 80vw;
 }
@@ -327,6 +328,10 @@ text-align: center;
     justify-content: center;
 }
 
+@media (min-width: 750px) {
+
+
+}
 
 
 

@@ -49,14 +49,14 @@ console.log(posts)
 
   return (
     
-    <div className='home_outer_container'>
-      <div className='home_top'>
-<div className='home_ladder_container'>
-          <img className='home_ladder' src={ladder} alt='' />
+    <div class='home_outer_container'>
+      <div class='home_top'>
+<div class='home_ladder_container'>
+          <img class='home_ladder' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/LadderFINAL.png' alt='' />
 </div>
  
-        <div className='home_top_text'>
-          <h1 className='freehand_header'>Join Us On The Journey To Put Relationships First</h1>
+        <div class='home_top_text'>
+          <h1 class='freehand_header'>Join Us On The Journey To Put Relationships First</h1>
           <p>RelationaLeadership and RelationaLearning has helped thousands of individuals and scores of schools, community groups and organizations to develop competency in what we call RelationaLeadership and Relationalearning.
 
           Throughout our four decades of working with educators from the US, the UK, and Australia, we have developed theory and practices for learning and leading relationally.
@@ -64,36 +64,36 @@ console.log(posts)
           We believe skillfully placing relationships first in all our interactions holds the key to personal and professional success, and contributes most to our becoming better human beings.
 
           Our research, publications, programs and collaborations highlight and support the primacy of Relationships First in making our organizations, schools and communities places of equity, justice, hope, achievement and joy for all.</p>
-<div className='home_more_info_shell'>
-        <button className='home_more_info'>More Info</button>
+<div class='home_more_info_shell'>
+        <button class='home_more_info'>More Info</button>
 </div>
         </div>
 
       </div>
 
-<div className='blog_section'>
-  <div className='blog_section_inner_blogs'>
-        <div className='blog_block'>
+<div class='blog_section'>
+  <div class='blog_section_inner_blogs'>
+        <div class='blog_block'>
           <h2>This Week's Blog</h2>
           <img alt=''/>
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
-        <div className='blog_block'>
+        <div class='blog_block'>
           <h2>This Week's Blog</h2>
           <img alt=''/>
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
-        <div className='blog_block'>
+        <div class='blog_block'>
           <h2>This Week's Blog</h2>
           <img alt=''/>
           <h2>The Story Untold</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
 </div>
-  <div className='blog_history_shell'>
-        <div className='blog_history'>
+  <div class='blog_history_shell'>
+        <div class='blog_history'>
           <h2>Our History</h2>
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi. Curabitur finibus nisi libero, eget vehicula ligula lobortis vitae. </p>
           <button>Learn More</button>
@@ -101,91 +101,91 @@ console.log(posts)
   </div>
 </div>
 
-<div className='listen_learn_watch'>
- <div className='home_links'>
+<div class='listen_learn_watch'>
+ <div class='home_links'>
   <h2>Learn</h2>
-  <img src={Learn} alt='' />
+  <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Learn.png' alt='' />
   <p>Check out our Online Courses</p>
 
  </div>
- <div className='home_links'>
+ <div class='home_links'>
   <h2>Listen</h2>
-  <img className='listen_image' src={Listen} alt=''/>
+  <img class='listen_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Listen.png' alt=''/>
   <p>Listen to our Podcast</p>
 
  </div>
- <div className='home_links'>
+ <div class='home_links'>
   <h2>Watch</h2>
-  <img src={Watch} alt=''/>
+  <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Watch.png' alt=''/>
   <p>Watch Videos from CRL</p>
 
  </div>
 
 </div>
 
-<div className='CRL_for_all'>
-  <div className='redwheel_container'>
-  <img className='redwheel' src={redwheel} alt='' />
+<div class='CRL_for_all'>
+  <div class='redwheel_container'>
+  <img class='redwheel' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/redwheel.png' alt='' />
   </div>
 
-  <h2>RelationaLearning for <span className='underline'>All</span></h2>
+  <h2>RelationaLearning for <span class='underline'>All</span></h2>
 
-  <div className='CRL_for_all_top'>
-  <div className="boardroom_container">
-  <img className='boardroom' src={boardroom} alt='' />
-  <img className='greenwheel' src={greenwheel} alt='' />
+  <div class='CRL_for_all_top'>
+  <div class="boardroom_container">
+  <img class='boardroom' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/boardroom-scaled.jpg' alt='' />
+  <img class='greenwheel' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/greenwheel.png' alt='' />
 </div>
-<div className='CRL_for_all_top_text'>
+<div class='CRL_for_all_top_text'>
     <h3>From the boardroom...</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
 </div>
   </div>
 
-  <div className='CRL_for_all_bottom'>
-    <div className='classroom_container'>
-    <img className='kids' src={kids} alt=''/>
-    <div className='paint_container'>
-    <img className='paint' src={yellowbig} alt=''/>
+  <div class='CRL_for_all_bottom'>
+    <div class='classroom_container'>
+    <img class='kids' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/kids-scaled.jpg' alt=''/>
+    <div class='paint_container'>
+    <img class='paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/yellowbig.png' alt=''/>
     </div>
     </div>
-    <div className='CRL_for_all_bottom_text'>
+    <div class='CRL_for_all_bottom_text'>
     <h3>...To the classroom</h3>
     <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam. In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
     </div>
   </div>
 </div>
 
-<div className='gradient_bottom_page'>
-<div className='global_effort'>
+<div class='gradient_bottom_page'>
+<div class='global_effort'>
   <h2>A Global Effort</h2>
 <p>Morbi pharetra auctor leo, a porta elit porta non. In porta ipsum id magna interdum, eget molestie magna fermentum. Etiam a rutrum nulla. Suspendisse tempor porta diam at aliquam. Proin eget elit felis. Nam rutrum nibh ac tellus ullamcorper, id varius augue consequat. Suspendisse potenti. Maecenas nec feugiat mauris, a sodales diam.
 
 In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincidunt, id ullamcorper felis interdum. Duis vel faucibus purus.</p>
 
 
-<div className='global_bottom'>
+<div class='global_bottom'>
   <div>
     <h4>Southwestern USA</h4>
-    <img src={maps3} alt=''/>
+    <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/maps3.png' alt=''/>
   </div>
   <div>
     <h4>United Kingdom</h4>
-    <img src={maps4} alt=''/>
+    <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/maps4.png' alt=''/>
   </div>
   <div>
     <h4>Australia</h4>
-    <img src={maps5} alt=''/>
+    <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/maps5.png' alt=''/>
   </div>
   <div>
     <h4>And remote from anywhere around the World</h4>
-    <img src={maps2} alt=''/>
+    <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/maps2.png' alt=''/>
   </div>
 </div>
 </div>
 
-<div className='home_email_div'>
-  <div className='home_email_form_shell'>
-  <form onSubmit={handleSubmit} className='home_email_form'>
+<div class='home_email_div'>
+  <div class='home_email_form_shell'>
+  <form onSubmit={handleSubmit} class='home_email_form'>
     <h2>Join Our Email List!</h2>
 
         <div>
@@ -208,8 +208,8 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
 
 
   
-  <div className='booksplash_shell'>
-<img src={booksplash} className='booksplash' alt=''/>
+  <div class='booksplash_shell'>
+<img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/booksplash.png' class='booksplash' alt=''/>
   </div>
 
 </div>

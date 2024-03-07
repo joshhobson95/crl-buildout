@@ -6,7 +6,7 @@ function Resources() {
 
 
   return (
-    <div className='resources_outer_shell'>
+    <div class='resources_outer_shell'>
 
     <div class='resources_top_background'>
             <div class='resources_top'>       
@@ -22,31 +22,31 @@ function Resources() {
 
 
 
-    <div className='resources_mid_page'>
-          <div className='resource_block1'>
-                <div className='resource_block_inner'>
+    <div class='resources_mid_page'>
+          <div class='resource_block1'>
+                <div class='resource_block_inner'>
                         <h3>Resource Title</h3>
                         <p>Resource Description: something small to describe the content</p>
                 </div>
           </div>
 
 
-            <div className='resource_block2'>
-            <div className='resource_block_inner'>
+            <div class='resource_block2'>
+            <div class='resource_block_inner'>
               <h3>Resource Title</h3>
               <p>Resource Description: someting small to describe the content</p>
             </div>
             </div>
 
-            <div className='resource_block3'>
-            <div className='resource_block_inner'>
+            <div class='resource_block3'>
+            <div class='resource_block_inner'>
               <h3>Resource Title</h3>
               <p>Resource Description: someting small to describe the content</p>
             </div>
             </div>
         </div>
 
-        <img className='resource_yellow_paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/yellowbigalt.png' alt=''/>
+        <img class='resource_yellow_paint' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/yellowbigalt.png' alt=''/>
 
 
     </div>

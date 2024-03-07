@@ -9,14 +9,45 @@
     box-sizing: border-box;
 
 }
-.leadership_top_container {
+
+.relationaleadership_top_background {
+    position: relative; 
+}
+
+.relationaleadership_top_background::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/03/sam-mgrdichian-m-DhFSSEWW4-unsplash.jpg');
+    background-size: cover; 
+    background-position: center; 
+    filter: brightness(0.8); 
+    z-index: 0;
+}
+.relationaleadership_top{
+    color: white;
+    text-align: center;
+}
+.relationaleadership_top h2{
     position: relative;
-    overflow: hidden;
-    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitylogo-2.png);
-    background-size: 60vw;
-    background-repeat: no-repeat;
-    background-position: -10vw 30vw;
-  }
+    font-size: 26pt;
+    padding: 1rem;
+    padding-top: 2rem;
+    z-index: 1;
+}
+.relationaleadership_top_inner{
+background-color: #0b9099c2;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+position: relative;
+z-index: 2;
+}
+
+
 
 .lts_text{
     display: flex;
@@ -169,6 +200,10 @@
     display: block;
 }
 
+.leadership_ul_and_image{
+    margin-top: 15vh;
+}
+
 
 
 @media (min-width: 750px) {
@@ -225,6 +260,18 @@
 
 
 @media (min-width: 1024px) {
+    .relationaleadership_top_background {
+        height: 40vh;
+    }
+    .relationaleadership_top h2{
+        font-size: 66pt;
+        font-weight: 500;
+        padding-top: 8vh;
+    }
+    .relationaleadership_top_inner p{
+    margin: 2rem 4rem;
+    font-size: 14pt;
+    }
 
     .relationaleadership_outer_shell{
         line-height: 1.75;
@@ -298,6 +345,7 @@
         width: 70vw;
     }
     .leadership_ul_and_image{
+  
         display: flex;
     }
     .leadership_top_image{
@@ -326,7 +374,11 @@
     }
 }
 
+
 @media (min-width: 1600px) {
+    .courses_top_inner p{
+        margin: 2rem 8rem;
+    }
     .lts_text h2{
         font-size: 32pt;
     }
@@ -367,6 +419,12 @@
     }
 }
 @media (min-width: 1800px) {
+    .courses_top_inner p{
+        margin: 2rem 12rem;
+    }
+    .courses_top_inner p{
+        font-size: 16pt;
+    }
     .leadership_teal_stroke{
         width: 50vw;
     }
@@ -374,6 +432,12 @@
 
 
 @media (min-width: 2000px) {
+    .courses_top h2{
+        font-size: 72pt;
+    }
+    .courses_top_inner p{
+        margin: 2rem 16rem;
+    }
     .leadership_ul_container li{
         font-size: 18pt;
     }

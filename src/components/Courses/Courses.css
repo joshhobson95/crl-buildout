@@ -6,8 +6,9 @@
     overflow-x: hidden !important;
     line-height: 1.5;
     box-sizing: border-box;
-
 }
+
+
 .courses_top_background {
     position: relative; 
 }
@@ -106,6 +107,7 @@ padding: 0.5rem;
     color: white;
     font-size: 16pt;
     font-family: Kaisei Decol;
+    cursor: pointer;
 }
 /* LEADING */
 .leading_with_relational_mind{
@@ -155,6 +157,7 @@ padding: 0.5rem;
     color: white;
     font-size: 16pt;
     font-family: Kaisei Decol;
+    cursor: pointer;
 }
 /*LIVING*/
 .living_with_relational_mind{
@@ -204,6 +207,7 @@ padding: 0.5rem;
     color: white;
     font-size: 16pt;
     font-family: Kaisei Decol;
+    cursor: pointer;
 }
 .teaching_with_relational_mind p{
     font-size: 12pt;
