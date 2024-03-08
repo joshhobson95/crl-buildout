@@ -78,13 +78,89 @@ margin: 2rem;
 .podcast_cover_container{
     display: flex;
     justify-content: center;
-    margin: 3rem;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10vh;
+
+}
+.podcast_cover_container h2{
+    text-align: center;
+    font-size: 16pt;
+    margin: 2rem -1rem;
+}
+
+.podcast_player_embeded{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2rem;
+}
+.podcast_player_embeded iframe{
+    align-self: center;
+    justify-self: center;
+}
+.podcast_player_outer{
+    display: flex;
+    justify-content: center;
+}
+
+.podcast_video_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.podcast_video_headerh2{
+    font-size: 16pt;
+}
+
+.podcast_video{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    width: 80vw;
+}
+.podcast_video_header{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/purplenewstroke-e1709934887800.png);
+    background-size: 70vw;
+    background-position: 0vw 0vw;
+    background-repeat: no-repeat;
+    margin: 2rem;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+.podcast_video iframe{
+    height: 100%;
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 750px) {
+    .podcast_video iframe{
+        height: 500px;
+        width: 700px;
+    }
+    .podcast_cover_container h2{
+        font-size: 22pt;
+        margin: 1rem;
+    }
+    .podcast_video_section h2{
+        font-size: 22pt;
+        }
+        .podcast_video_header h2{
+            font-size: 22pt;
+        }
 
+}
+
+
+
+
+@media (min-width: 1024px) {
+.podcast_cover{
+    width: 40vw;
+}
 .podcast_top_background {
     height: 40vh;
 }
@@ -97,11 +173,34 @@ margin: 2rem;
 margin: 2rem 4rem;
 font-size: 14pt;
 }
+.podcast_cover{
+    width: 25vw;
 }
+}
+
+
+@media (min-width: 1400px) {
+    .podcast_video{
+        width: auto;
+    }
+    .podcast_video_section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .podcast_video_header{
+        background-size: 40vw;
+    }
+
+}
+
+
 
 @media (min-width: 1600px) {
     .podcast_top_inner p{
         margin: 2rem 8rem;
+    }
+    .podcast_video_header{
+        background-size: 30vw;
     }
 }
 
