@@ -42,7 +42,7 @@ function RelationaLeadership() {
 
 
         <div class='leadership_top_image_container'>
-            <img class='leadership_top_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/javier-allegue-barros-0nOP5iHVaZ8-unsplash.jpg' alt=''/>
+            <img class='leadership_top_image' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/IMG_0087.jpg' alt=''/>
         </div>
 </div>
 
@@ -75,7 +75,7 @@ function RelationaLeadership() {
         In our approach leading relationally is developed by simultaneously increasing the leaders satisfaction, joy and happiness and their impact. A client will be able to uncover current patterns of engagement in their relationships. These patterns of relating to other reveal what stage of relating is dominate and then sensibilities and practices are developed to consciously take one to the highest levels of relationship. The chart below is a visual of this dynamic process.</p>
         </div>
         <div class='leadership_graphic_container'>
-            <img class='leadership_graphic' src='https://dev.relationalearning.com/wp-content/uploads/2024/02/Emerging-Connections-Chart-2023.png' alt=''/>
+            <img class='leadership_graphic' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/emerging-connections.png' alt=''/>
         </div>
 
         <div class='leadership_mid_page_quote'>

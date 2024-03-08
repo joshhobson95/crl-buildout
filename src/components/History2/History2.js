@@ -20,7 +20,7 @@ function History2() {
           </div>
   
 
-      <img className='history_big' src={historybig} />
+     
 
 
       <div className='overlay_history'>

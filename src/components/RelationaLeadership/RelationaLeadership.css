@@ -64,6 +64,7 @@ z-index: 2;
     font-size: 12pt;
     padding: 1rem;
 }
+
 .leadership_ul_container ul{
     list-style-type: disc !important;
     list-style: disc !important;
@@ -85,6 +86,9 @@ z-index: 2;
 .leadership_top_image_container{
     display: flex;
     justify-content: center;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/purplenewstroke.png);
+    background-size: 60vw;
+    background-position: 50vw 0vw;
 }
 .leadership_top_image{
     width: 80vw;
@@ -100,7 +104,7 @@ z-index: 2;
     width: 90vw;
 }
 .leadership_icon_banner{
-    background-color: #FDC677;
+
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
@@ -155,6 +159,7 @@ z-index: 2;
 .leadership_graphic_container{
     display: flex;
     justify-content: center;
+    background-color: #304649;
 }
 .leadership_mid_page_quote{
     background-color: #57558C;
@@ -294,6 +299,7 @@ z-index: 2;
     .leadership_icon_banner{
         display: flex;
         justify-content: space-around;
+        margin: 5rem 0rem;
     }
     .leadership_banner_item{
         display: flex;
@@ -316,13 +322,21 @@ z-index: 2;
     .leadership_mid_page_quote{
         font-size: 20pt;
     }
+    .leadership_banner_item img{
+        width: 10vw;
+    }
+    .lead_your_team_image{
+        width: 12vw !important;
+    }
+    .educate_better_image{
+        width: 8.5vw !important;
+    }
 }
 
 
 
 
 @media (min-width: 1200px) {
-
     .leadership_lower_page{
         background-size: 60vw;
         background-position: 60vw 40vh;
@@ -330,6 +344,17 @@ z-index: 2;
     .leadership_mid_page_quote{
         font-size: 20pt;
     }
+    .lead_your_team_image{
+        width: 14vw !important;
+    }
+    .educate_better_image{
+        width: 10vw !important;
+    }
+    .leadership_graphic{
+        width: 50vw;
+    }
+
+
 
 }
 
@@ -357,20 +382,16 @@ z-index: 2;
     .leadership_banner_item img{
         width: 12vw;
     }
-    .lead_your_team_image{
-        width: 14vw !important;
-    }
-    .educate_better_image{
-        width: 10vw !important;
-    }
-    .leadership_graphic{
-        width: 50vw;
-    }
+
     .leadership_teal_stroke{
         width: 60vw;
     }
     .leadership_lower_page p{
         margin: 4rem;
+    }
+    .leadership_top_image_container{
+        background-size: 40vw;
+        background-position: 40vw 0vw;
     }
 }
 
@@ -428,6 +449,11 @@ z-index: 2;
     .leadership_teal_stroke{
         width: 50vw;
     }
+    .leadership_top_image_container{
+        background-size: 30vw;
+        background-position: 10vw 0vw;
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -458,6 +484,12 @@ z-index: 2;
     }
     .leadership_teal_stroke{
         width: 45vw;
+    }
+
+    .leadership_ul_and_image{
+        margin-top: 15vh;
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
 
 }

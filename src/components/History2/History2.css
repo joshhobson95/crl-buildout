@@ -62,40 +62,44 @@
 
 
 .overlay_history {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; 
+
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/HistoryBig.png);
+   background-size: 100vw;
+   background-repeat: no-repeat;
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 40%;
     z-index: 4;
   }
 
+
+
   .our_history_div{
-    height: 50vh;
+    position: relative;
     width: 45vw;
     margin-right: 50%;
-    margin-top: 35vh;
+    margin-top: 15vh;
+    height: 35vh;
+
   }
 
   .southwest_to_outback_div{
-    height: 50vh;
+    position: relative;
     width: 45vw;
     margin-left: 50%;
-    margin-top: 10vh;
-
+    height: 35vh;
   }
 
   .new_mexico_div{
-    height: 50vh;
+    position: relative;
     width: 45vw;
     margin-left: -50%;
-    margin-top: 10vh;
+    height: 35vh;
+
+
   }
 
   .our_history_div p{
@@ -108,125 +112,7 @@
     font-size: 8pt;
   }
 
-  
-  @media (min-width: 510px) {
-    .our_history_div h3{
-        font-size: 14pt;
-      }
-      .southwest_to_outback_div h3{
-        font-size: 14pt;
-      }
-      .new_mexico_div h3{
-        font-size: 14pt;
-      }
-    .our_history_div p{
-        font-size: 11pt;
-      }
-      .southwest_to_outback_div p{
-        font-size: 11pt;
-      }
-      .new_mexico_div p{
-        font-size: 11pt;
-      }
-      .overlay_history {
-        margin-top: 50%;
-      }
-  } 
 
-   @media (min-width: 610px) {
-    .our_history_div{
-        margin-top: 40vh;
-      }
-    
-      .southwest_to_outback_div{
-        margin-top: 15vh;
-      }
-    
-      .new_mexico_div{
-        margin-top: 15vh;
-      }
-  }
+  @media (min-height: 750px) {
 
-  
-  @media (min-width: 710px) {
-    .our_history_div{
-        margin-top: 50vh;
-      }
-
-      .southwest_to_outback_div{
-        margin-top: 25vh;
-      }
-      .new_mexico_div{
-        margin-top: 25vh;
-      }
-  }
-
-
-  @media (min-width: 900px) {
-    .our_history_div h3{
-        font-size: 18pt;
-        margin: 1rem;
-      }
-      .southwest_to_outback_div h3{
-        font-size: 18pt;
-        margin: 1rem;
-      }
-      .new_mexico_div h3{
-        font-size: 18pt;
-        margin: 1rem;
-      }
-    .our_history_div p{
-        font-size: 12pt;
-      }
-      .southwest_to_outback_div p{
-        font-size: 12pt;
-      }
-      .new_mexico_div p{
-        font-size: 12pt;
-      }
-      .overlay_history {
-        margin-top: 50%;
-      }
-  }
-
-
-  @media (min-width: 1024px) {
-    .history_big{
-        width: 90vw;
-        align-self: center;
-     }
-    .our_story{
-        width: 400px;
-    }
-    .our_story h2{
-        font-size: 24pt;
-    }
-    .our_history_div h3{
-        font-size: 22pt;
-    }
-    .southwest_to_outback_div h3{
-        font-size: 22pt;
-      }
-      .new_mexico_div h3{
-        font-size: 22pt;
-      }
-      .our_history_div p{
-        font-size: 16pt;
-      }
-      .southwest_to_outback_div p{
-        font-size: 16pt;
-      }
-      .new_mexico_div p{
-        font-size: 16pt;
-      }
-
-  }
-
-  
-  @media (min-width: 1200px) {
-    .history_big{
-       width: 80vw;
-       align-self: center;
-    }
-    
   }
