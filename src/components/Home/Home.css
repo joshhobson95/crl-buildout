@@ -58,11 +58,7 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.blog_block{
-    background-color: #D9D9D9;
-    margin: 2rem;
-    padding: 1rem;
-}
+
 .blog_block h2{
     color: #0B8F99;
     font-family: Kaisei Decol;
@@ -75,6 +71,7 @@
     margin: 1rem;
     line-height: 1.5;
     font-size: 12pt;
+	max-width: 65vw;
 }
 .blog_image{
     height: 100px;
@@ -326,6 +323,33 @@ text-align: center;
     display: flex;
     justify-content: center;
 }
+.blog_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    margin: 2rem;
+    padding: 1rem;
+}
+.blog_block h2{
+	padding: 2rem;
+}
+.blog_block img{
+	height: 30vh;
+	width: 65vw;
+ object-fit: cover;
+ align-self: center;
+}
+#logo-crl-home{
+	width: 8vw;
+}
+
+
+
+
+
+
+
 
 @media (min-width: 750px) {
 
@@ -338,7 +362,7 @@ text-align: center;
     
     .home_top_text {
         position: absolute;
-        top: 0;
+        top: 150px;
         right: 0;
         width: 50vw; 
         margin-top: 3rem;
@@ -435,6 +459,17 @@ text-align: center;
     .CRL_for_all p{
         font-size: 14pt;
     }
+    .blog_block h2{
+        padding: 2rem;
+    }
+    .blog_block img{
+        height: 20vh;
+        width: 25vw;
+     object-fit: cover;
+    }
+    #logo-crl-home{
+        width: 8vw;
+    }
 }
 
 
@@ -467,6 +502,13 @@ text-align: center;
 .home_email_form{
     height: 35vh;
 }
+	.blog_block h2{
+		font-size: 24pt;
+	}
+	.blog_block p{
+		font-size: 14pt;
+		max-width: 25vw;
+	}
 }
 
 @media (min-width: 1400px) {
@@ -537,6 +579,12 @@ text-align: center;
      }
      .CRL_for_all h2 {
         font-size: 32pt;
+    }
+    .blog_block img{
+        height: 30vh;
+
+     object-fit: cover;
+     align-self: center;
     }
     
 }

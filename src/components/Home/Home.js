@@ -75,20 +75,20 @@ console.log(posts)
   <div class='blog_section_inner_blogs'>
         <div class='blog_block'>
           <h2>This Week's Blog</h2>
-          <img alt=''/>
-          <h2>The Story Untold</h2>
+          <img src='https://dev.relationalearning.com/wp-content/uploads/2024/03/roadrunner.jpg' alt=''/>
+      
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
         <div class='blog_block'>
           <h2>This Week's Blog</h2>
-          <img alt=''/>
-          <h2>The Story Untold</h2>
+          <img src='https://dev.relationalearning.com/wp-content/uploads/2024/03/roadrunner.jpg' alt=''/>
+          
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
         <div class='blog_block'>
           <h2>This Week's Blog</h2>
-          <img alt=''/>
-          <h2>The Story Untold</h2>
+          <img src='https://dev.relationalearning.com/wp-content/uploads/2024/03/roadrunner.jpg' alt=''/>
+         
           <p>In vestibulum vestibulum posuere. Nulla augue velit, interdum a ultrices sit amet, rhoncus vitae nisi....</p>
         </div>
 </div>
