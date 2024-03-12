@@ -15,6 +15,7 @@ import Courses from './components/Courses/Courses';
 import Programs from './components/Programs/Programs';
 import History2 from './components/History2/History2';
 import Blog from './components/Blog/Blog';
+import SingleBlog from './components/Blog/SingleBlog';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path='/courses' element={<Courses />}/>
         <Route path='/programs' element={<Programs />}/>
         <Route path='/blog' element={<Blog/>}/>
+        <Route path='/singleblog' element={<SingleBlog/>}/>
       </Routes>
      
     </div>

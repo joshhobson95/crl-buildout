@@ -1,0 +1,123 @@
+.single_blog_outer_shell{
+    background-color: #F2E7D8;
+    max-width: 100vw;
+    font-family: Kaisei Decol;
+    overflow: hidden;
+    overflow-x: hidden !important;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.single_blog_featured_image{
+    height: fit-content;
+    width: 80vw;
+}
+
+.single_blog_top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+
+}
+.single_blog_top h2{
+    font-size: 20pt;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #FDFDF5;
+    width: 100vw;
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitygreen.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.single_blog_top span{
+    font-size: 11pt;
+    align-self: flex-end;
+}
+
+
+
+
+.single_blog_entry{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.single_blog_entry img{
+    height: fit-content;
+    width: 65vw;
+    align-self: center;
+    margin: 1rem;
+}
+
+.single_blog_entry p{
+    font-size: 12pt;
+    margin: 1rem;
+}
+
+
+
+
+@media (min-width: 750px) {
+    .single_blog_top h2{
+        font-size: 22pt;
+        padding: 4rem;
+        background-size: 75vw;
+    }
+    .single_blog_entry p{
+        margin: 3rem;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+
+    .single_blog_featured_image{
+        width: 70vw;
+    }
+    .single_blog_entry p{
+        font-size: 14pt;
+        margin: 2rem 4rem;
+    }
+
+}
+
+
+
+@media (min-width: 1400px) {
+    .single_blog_featured_image{
+        width: 50vw;
+    }
+    .single_blog_entry img{
+        width: 40vw;
+    }
+    .single_blog_top h2{
+        font-size: 26pt;
+        background-size: 50vw;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+    .single_blog_entry p{
+        font-size: 16pt;
+        margin: 5rem 10rem;
+    }
+    .single_blog_top h2{
+        font-size: 26pt;
+        background-size: 30vw;
+    }
+    .single_blog_featured_image{
+        width: 40vw;
+    }
+    .single_blog_entry img{
+        width: 30vw;
+    }
+
+}
