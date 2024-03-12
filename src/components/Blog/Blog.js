@@ -24,7 +24,7 @@ function Blog() {
     <div className='single_blog_container'>
         <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sincerely-media-IIIr1Hu6aY-unsplash-2.png' alt=''/>
         <div className='single_blog_inner_text'>
-            <h3>With a Gansta Lean</h3>
+            <h3>Title of Blog</h3>
             <p>Fusce id ipsum et massa rutrum mattis quis non ligula. Maecenas vitae gravida massa. Nulla nisi dolor, imperdiet a enim non, vehicula varius enim. Ut ut nulla lobortis, luctus augue id, tincidunt ligula. Praesent tempor diam velit, in pellentesque dui tristique sed. Duis erat eros, volutpat ut mauris eget, finibus dignissim nisi. Quisque luctus velit at orci vestibulum, nec mattis ligula dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. </p>
             <span>March 11th, 2024</span>
         </div>
@@ -33,7 +33,7 @@ function Blog() {
     <div className='single_blog_container'>
         <img src='https://dev.relationalearning.com/wp-content/uploads/2024/02/sincerely-media-IIIr1Hu6aY-unsplash-2.png' alt=''/>
         <div className='single_blog_inner_text'>
-            <h3>Big in the Scene</h3>
+            <h3>Title Blog Two</h3>
             <p>Fusce id ipsum et massa rutrum mattis quis non ligula. Maecenas vitae gravida massa. Nulla nisi dolor, imperdiet a enim non, vehicula varius enim. Ut ut nulla lobortis, luctus augue id, tincidunt ligula. Praesent tempor diam velit, in pellentesque dui tristique sed. Duis erat eros, volutpat ut mauris eget, finibus dignissim nisi. Quisque luctus velit at orci vestibulum, nec mattis ligula dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. </p>
             <span>March 11th, 2024</span>
         </div>
