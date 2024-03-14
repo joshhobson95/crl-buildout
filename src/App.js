@@ -16,6 +16,7 @@ import Programs from './components/Programs/Programs';
 import History2 from './components/History2/History2';
 import Blog from './components/Blog/Blog';
 import SingleBlog from './components/Blog/SingleBlog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/singleblog' element={<SingleBlog/>}/>
       </Routes>
+      <Footer />
      
     </div>
   );

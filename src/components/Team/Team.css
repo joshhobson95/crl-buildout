@@ -67,30 +67,28 @@
 }
 .other_faculty {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .faculty {
-    width: 600px;
-    margin: 10px;
-    text-align: center;
-    display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
   }
-  .faculty h3{
-    font-size: 18pt;
+  .other_faculty h4{
+    font-size: 12pt;
+    text-align: center;
+
+  }
+
+  .our_team_images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     margin: 1rem;
   }
-  .headshot{
-    width: 60vw;
+  .our_team_images img{
+    width: 40vw;
+    margin: .5rem;
   }
-  .team_outer_shell img {
-    align-self: center;
-    width: 20vw;
-}
-
+  
 
 
 
@@ -154,20 +152,13 @@
     .george_and_susan h2{
       font-size: 26pt;
     }
-    .faculty h3{
-      font-size: 26pt;
-    }
+
  
   }
 
   @media (min-width: 1600px) { 
-    .other_faculty{
-      flex-wrap: wrap;
-      margin: 10rem;
-    }
-    .faculty{
-      padding: 2rem;
-    }
+
+
     .george{
       width: 35vw !important;
     }
@@ -180,9 +171,7 @@
     .george_and_susan p{
       margin: 4rem 14rem;
     }
-    .faculty{
-      margin: 8rem;
-    }
+
     
 
   }
