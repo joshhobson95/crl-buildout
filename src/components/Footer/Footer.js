@@ -5,25 +5,25 @@ function Footer() {
 
 
   return (
-    <div className='footer_outer_shell'>
+    <div class='footer_outer_shell'>
 
 
 
-      <div className='backtotop'>
-           <button className='footer_button'>Back to Top</button>
+      <div class='backtotop'>
+           <button class='footer_button'>Back to Top</button>
       </div>
-<div className='footer_inner_shell'>
+<div class='footer_inner_shell'>
 
-      <div className='footer_top_one'>
-        <img className='BW_logo' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/BWLogo.png' alt='Center for RelationaLearning Logo'/>
+      <div class='footer_top_one'>
+        <img class='BW_logo' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/BWLogo.png' alt='Center for RelationaLearning Logo'/>
         <h3>Join Us On The Journey To Put Relationships First!</h3>
       </div>
 
 
 
-<div className='footer_top_two'>
+<div class='footer_top_two'>
 
-      <div className='footer_contact'>
+      <div class='footer_contact'>
         <h3>Contact Info</h3>
         <ul>
           <li>Dr. George Otero</li>
@@ -33,7 +33,7 @@ function Footer() {
       </div>
 
       
-      <div className='footer_socials'>
+      <div class='footer_socials'>
 
 <a href='https://www.instagram.com/gg_otero/'>
         <img src='https://dev.relationalearning.com/wp-content/uploads/2024/03/instagram.png' alt='Center For RelationaLearning Instagram'/>

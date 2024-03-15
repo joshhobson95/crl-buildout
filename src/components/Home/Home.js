@@ -185,7 +185,7 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
 
 <div class='home_email_div'>
   <div class='home_email_form_shell'>
-  <form onSubmit={handleSubmit} class='home_email_form'>
+  {/* <form onSubmit={handleSubmit} class='home_email_form'>
     <h2>Join Our Email List!</h2>
 
         <div>
@@ -201,7 +201,9 @@ In ut nisi eros. Ut molestie ultricies mollis. Nam auctor lacus nec dolor tincid
           <input type="email" id="email" name="email" />
         </div>
         <button type="submit" >Submit</button>
-      </form>
+      </form> */}
+
+<link href="https://static-cdn.e2ma.net/signups/css/signup-refresh.lrg.css" rel="stylesheet" type="text/css" /><script type="text/javascript" src="https://signup.e2ma.net/tts_signup/1720637/fa3c07b971e97814abe4622bd4ba019b/1714785/"></script><div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://signup.e2ma.net/signup/1720637/1714785/"> Sign up here</a> instead </div><script type="text/javascript">signupFormObj.drawForm();</script>
 
   </div>
 

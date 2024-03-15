@@ -9,24 +9,42 @@
     box-sizing: border-box;
 
 }
-.videos_header_container{
-    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/NewStrokes4-3-e1709326510669.png);
-    background-size: 70vw;
-    background-repeat: no-repeat;
-    background-position: -30vw 0vw;
+
+.videos_top_background {
+    position: relative; 
+}
+
+.videos_top_background::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 370px;
+    background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/03/video.jpg');
+    background-size: cover; 
+    background-position: center; 
+    filter: brightness(0.8); 
+    z-index: 0;
+}
+.videos_top{
+    color: white;
     text-align: center;
-    height: 10vh;
 }
-.videos_header_container h2{
-    font-size: 20pt;
+.videos_top h2{
+    position: relative;
+    font-size: 26pt;
+    padding: 1rem;
+    padding-top: 2rem;
+    z-index: 1;
 }
-.videos_top_shell{
-    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitygreen.png);
-    background-size: 70vw;
-    background-repeat: no-repeat;
-    background-position: 50vw 0vw;
-    padding-top: 10vh;
-    margin-top: -5vh;
+.videos_top_inner{
+background-color: #57558c79;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+position: relative;
+z-index: 2;
 }
 .video_banner_container{
     display: flex;
@@ -52,7 +70,9 @@
     font-size: 12pt;
 }
 
-
+.videos_container_main{
+    margin-top: 12vh;
+}
 
 .video_container{
     display: flex;
@@ -79,9 +99,7 @@
     .videos_header_container h2{
         font-size: 24pt;
     }
-    .videos_top_shell{
-        margin-top: -10vh;
-    }
+
     .video_banner_text h2{
         font-size: 20pt;
     }
@@ -97,14 +115,25 @@
 }
 
 @media (min-width: 1024px) {
+
+    .videos_top_background {
+        height: 40vh;
+    }
+    .videos_top h2{
+        font-size: 56pt;
+        font-weight: 500;
+        padding-top: 3vh;
+    }
+    .videos_top_inner p{
+    margin: 2rem 4rem;
+    font-size: 14pt;
+    }
     .video_banner_image_container{
         height: 40vh;
         overflow: hidden;
         position: relative;
     }
-    .video_banner{
-        margin-top: -5vh;
-      }
+
     .video_banner_text{
         margin: 1rem;
     }
@@ -163,9 +192,29 @@
     .video_banner{
         margin-top: -20vh;
     }
+}
+
+@media (min-width: 1600px) {
+    .videos_top h2{
+        padding-top: 5vh ;
+    }
+    .videos_top_inner p{
+        margin: 2rem 8rem;
+    }
+    .videos_top_background::before{
+		height: 100%;
+	}
 
 }
+
+
 @media (min-width: 1800px) {
+    .videos_top_inner p{
+        margin: 2rem 12rem;
+    }
+    .videos_top_inner p{
+        font-size: 16pt;
+    }
     .videos_header_container h2{
         font-size: 32pt;
     }
@@ -187,6 +236,13 @@
 
 
 @media (min-width: 2000px) {
+    .videos_top h2{
+        font-size: 72pt;
+    }
+    .videos_top_inner p{
+        margin: 2rem 16rem;
+    }
+
     .video_container iframe{
         height: 60vh;
         width: 70vw;
