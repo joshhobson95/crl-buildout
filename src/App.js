@@ -13,7 +13,7 @@ import Coaching from './components/Coaching/Coaching';
 import Videos from './components/Videos/Videos';
 import Courses from './components/Courses/Courses';
 import Programs from './components/Programs/Programs';
-import History2 from './components/History2/History2';
+import History3 from './components/History2/History3';
 import Blog from './components/Blog/Blog';
 import SingleBlog from './components/Blog/SingleBlog';
 import Footer from './components/Footer/Footer';
@@ -26,7 +26,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/team' element={<Team />}/>
         <Route path='/history' element={<History />}/>
-        <Route path='/history2' element={<History2 />}/>
+        <Route path='/history3' element={<History3 />}/>
         <Route path='/relationalearning' element={<RelationaLearning/>}/>
         <Route path='/resources' element={<Resources />}/>
         <Route path='/contact' element={<Contact />}/>

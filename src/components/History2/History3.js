@@ -1,9 +1,9 @@
 import React from 'react'
-import './History2.css'
+import './History3.css'
 import historybig from '../../assets/HistoryBig.png'
 
 
-function History2() {
+function History3() {
 
 
 
@@ -25,8 +25,8 @@ function History2() {
 
       <div className='overlay_history'>
 
-        <div>
-          <img  src='https://dev.relationalearning.com/wp-content/uploads/2024/03/HistoryBig.png'/>
+        <div className='timeline_image_container'>
+          <img className='timeline_image'  src='https://dev.relationalearning.com/wp-content/uploads/2024/03/HistoryBig.png'/>
         </div>
 
         <div className='our_history_div'>
@@ -65,4 +65,4 @@ function History2() {
   )
 }
 
-export default History2
+export default History3;
