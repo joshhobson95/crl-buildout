@@ -11,7 +11,7 @@ function Videos() {
 
     <div class='videos_top_background'>
     <div class='videos_top'>       
-        <h2> CRL Videos</h2>
+        <h2>Relational Videos</h2>
         <div class='videos_top_inner'>
             <p>
             Welcome to the Center's Videos page, your gateway to insightful content that brings learning to life. Explore our curated collection of videos designed to inspire, educate, and empower educators and leaders in their journey towards relational excellence.
