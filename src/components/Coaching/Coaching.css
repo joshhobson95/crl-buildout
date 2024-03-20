@@ -17,7 +17,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 120%;
+    height: 370px;
     background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/03/programs-scaled-1.jpg');
     background-size: cover; 
     background-position: center; 
@@ -67,7 +67,7 @@ z-index: 2;
 }
 
 .coaching_icon_banner{
-    background-color: #fdc677;
+    background-color: #fdc67761;
     display: flex; 
     flex-direction: column;
     text-align: center;
@@ -77,15 +77,26 @@ z-index: 2;
     font-size: 14pt;
     padding: 1rem;
 }
+.calendly_container_inner{
+	margin: 1rem;
+}
+
+.coaching_icon_banner h4{
+	font-size: 12pt;
+	padding: 1rem;
+    text-decoration: underline;
+}
+
+
+
 .coaching_just_icons{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     padding-bottom: 2rem;
-
 }
 .coaching_icon_banner img{
-    width: 25vw ;
+    width: 20vw ;
 }
 
 .coaching_closer{
@@ -109,7 +120,7 @@ margin-bottom: 4rem;
 }
 
 .coaching_image{
-    width: 75vw;
+    width: 125vw;
 }
 .coaching_image_container{
     display: flex;
@@ -118,12 +129,9 @@ margin-bottom: 4rem;
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: 10vw 10vw;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
 }
-.coaching_just_icons h4{
-    padding: 1rem;
-    text-decoration: underline;
-}
+
 .calendly_container_outer h2{
     font-size: 16pt;
     text-align: center;
@@ -134,13 +142,20 @@ margin-bottom: 4rem;
     text-align: center;
 }
 
-
+.calendly_text{
+    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/Untitled-design6.png);
+    background-size: 60vw;
+    background-position: -40vw 0vw;
+    background-repeat: no-repeat;
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
 
 @media (min-width: 750px) {
     .coaching_icon_banner img{
-        width: 15vw;
+        width: 11vw;
     }
     .coaching_closer_text{
         background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/03/greenlogotransparent.png);
@@ -156,10 +171,14 @@ margin-bottom: 4rem;
         background-repeat: no-repeat;
     }
     .coaching_image{
-        width: 60vw;
+        width: 100vw;
     }
     .coaching_just_icons{
         flex-direction: row;
+    }
+    .calendly_text{
+        background-size: 40vw;
+        background-position: -20vw 2vw;
     }
 
 
@@ -171,9 +190,9 @@ margin-bottom: 4rem;
         height: 40vh;
     }
     .coaching_top h2{
-        font-size: 66pt;
+        font-size: 56pt;
         font-weight: 500;
-        padding-top: 8vh;
+        padding-top: 3vh;
     }
     .coaching_top_inner p{
     margin: 2rem 4rem;
@@ -208,6 +227,10 @@ margin-bottom: 4rem;
     .calendly_container_outer p{
         font-size: 16pt;
     }
+    .calendly_text{
+        background-size: 40vw;
+        background-position: -15vw 2vw;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -230,13 +253,13 @@ margin-bottom: 4rem;
         font-size: 18pt;
     }
     .coaching_icon_banner img{
-        width: 10vw;
+        width: 7vw;
     }
     .coaching_image{
-        width: 50vw;
+        width: 75vw;
     }
     .coaching_image_container{
-        background-size: 40vw;
+        background-size: 30vw;
         background-position: 45vw 20vw;
     }
     .calendly_container_outer h2{
@@ -255,7 +278,7 @@ margin-bottom: 4rem;
         font-size: 26pt;
     }
     .coaching_opener p{
-      padding: 6rem 0rem;
+      padding: 2rem 0rem;
       margin: 2rem 10rem;
       line-height: 2;
     }
@@ -263,12 +286,21 @@ margin-bottom: 4rem;
         font-size: 26pt;
     }
     .coaching_closer p{
-      padding: 6rem 0rem;
+  
       margin: 2rem 10rem;
       line-height: 2;
     }
     .calendly_container_outer h2{
         font-size: 26pt;
+    }
+		.coaching_top_background::before{
+		height: 100%;
+	}
+	.coaching_top h2{
+		padding-top: 5vh;
+	}
+	    .coaching_image{
+        width: 70vw;
     }
 
 }
@@ -290,6 +322,10 @@ margin-bottom: 4rem;
     .coaching_opener p{
         margin: 1rem 24rem;
     }
+	    .coaching_image{
+        width: 60vw;
+    }
+
 }
 
 
