@@ -24,6 +24,7 @@
     background-position: center; 
     filter: brightness(0.8); 
     z-index: 0;
+    padding-bottom: 2rem;
 }
 .publications_top{
     color: white;

@@ -8,28 +8,27 @@ function History3() {
 
 
   return (
-    <div className='history2_outer_shell'>
+    <div class='history2_outer_shell'>
 
-<div className='history_image_top'>
-        <div className='sunset_image'>
+<div class='history_image_top'>
+        <div class='sunset_image'>
         </div>
       </div>
 
-          <div className='our_story'>
+          <div class='our_story'>
             <h2>Our Story</h2>
           </div>
   
 
-     
+  
 
+      <div class='overlay_history'>
 
-      <div className='overlay_history'>
-
-        <div className='timeline_image_container'>
-          <img className='timeline_image'  src='https://dev.relationalearning.com/wp-content/uploads/2024/03/HistoryBig.png'/>
+        <div class='timeline_image_container'>
+          <img class='timeline_image'  src='https://dev.relationalearning.com/wp-content/uploads/2024/03/HistoryBig.png'/>
         </div>
 
-        <div className='our_history_div'>
+        <div class='our_history_div'>
             <h3>Our History</h3>
             <p>
             Fusce id ipsum et massa rutrum mattis quis non ligula. Maecenas vitae gravida massa. Nulla nisi dolor, imperdiet a enim non, vehicula varius enim. Ut ut nulla lobortis, luctus augue id, tincidunt ligula. Praesent tempor diam velit, in pellentesque dui tristique sed.
@@ -39,7 +38,7 @@ function History3() {
         </div>
 
 
-        <div className='southwest_to_outback_div'>
+        <div class='southwest_to_outback_div'>
             <h3>Southwest to Outback</h3>
             <p>
             Fusce id ipsum et massa rutrum mattis quis non ligula. Maecenas vitae gravida massa. Nulla nisi dolor, imperdiet a enim non, vehicula varius enim. Ut ut nulla lobortis, luctus augue id, tincidunt ligula. Praesent tempor diam velit, in pellentesque dui tristique sed.
@@ -49,7 +48,7 @@ function History3() {
         </div>
 
 
-        <div className='new_mexico_div'>
+        <div class='new_mexico_div'>
             <h3>New Mexico</h3>
             <p>
             Fusce id ipsum et massa rutrum mattis quis non ligula. Maecenas vitae gravida massa. Nulla nisi dolor, imperdiet a enim non, vehicula varius enim. Ut ut nulla lobortis, luctus augue id, tincidunt ligula. Praesent tempor diam velit, in pellentesque dui tristique sed.
