@@ -1,192 +1,112 @@
-.history_outer_container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 11vh;
-    font-family: Kaisei Decol;
+.mobile_history_outer_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 11vh;
+  font-family: Kaisei Decol;
+}
+
+.mobile_history_image_top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.mobile_sunset {
+  width: 100vw;
+  position: relative;
+}
+
+.mobile_sunset_image {
+  background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 30vh; /* Adjust as needed */
+  filter: brightness(80%);
+  display: flex;
+  justify-content: center;
+}
+
+.mobile_our_story {
+  background-image: url(../../assets/paint/purpledefined.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -27%;
+  bottom: 0;
+  width: 250px;
+  text-align: center;
+  align-self: center;
+  position: absolute;
+  z-index: 3;
 
 }
-.history_image_top{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+
+.mobile_our_story h2 {
+  padding: 2rem;
+  color: white;
+  font-size: 22pt;
 }
-.sunset{
-    width: 100vw;
-    position: relative;
+
+.mobile_vertical_line {
+  height: 250%;
+  position: absolute;
+  top: 35%;
+  bottom: 0;
+  left: 50%;
+  width: 10px;
+  background: linear-gradient(to bottom, #57558C 0%, #F4C078 35%, #0B8F99 60%, #57558C 100%);
+  transform: translateX(-50%);
 }
-.sunset_image{
-    background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    height: 40vh;
-    filter: brightness(80%);
-    display: flex;
-    justify-content: center;
+
+.mobile_history_our_history,
+.mobile_southwest_to_outback,
+.mobile_new_mexico_end {
+  position: relative;
+  z-index: 3;
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f4c078da; 
 }
-.our_story{
-    background-image: url(../../assets/paint/purpledefined.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    top: -27%;
-    bottom: 0;
-    width: 250px;
-    text-align: center;
-    align-self: center;
-    position: absolute;
-    z-index: 3;
-
+.mobile_history_our_history img,
+.mobile_southwest_to_outback img,
+.mobile_new_mexico_end img {
+  margin-top: 2rem;
 }
-.our_story h2{
-    padding: 2rem;
-    color:white;
-    font-size: 22pt;
-    
+
+.mobile_southwest_to_outback {
+  background-color: #0b9099de; 
+  color: white;
 }
-.vertical_line {
-    height: 220%;
-    position: absolute;
-    top: 35%;
-    bottom: 0;
-    left: 50%;
-    width: 10px; 
-    background: linear-gradient(to bottom, #57558C 0%, #F4C078 35%, #0B8F99 60%, #57558C 100%); 
-    transform: translateX(-50%);
-  }
 
-  .our_history_image{
-    width: 80vw;
-    align-self: center;
-    padding: 1rem;
-    position: relative;
-    z-index: 2;
-  }
-  .our_history_image2{
-    width: 80vw;
-    align-self: center;
-    padding: 1rem;
-    position: relative;
-    z-index: 2;
-  }
-  .our_history_image3{
-    width: 80vw;
-    align-self: center;
-    padding: 1rem;
-    position: relative;
-    z-index: 2;
-  }
-  .history_our_history{
-    position: relative;
-    z-index: 3;
-    margin: 1rem;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #f4c078ef;
-    position: relative;
-  }
-  .southwest_to_outback{
-    position: relative;
-    z-index: 3;
-    margin: 1rem;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #0b9099f6;
-    position: relative;
-  }
-  .new_mexico_end{
-    position: relative;
-    z-index: 3;
-    margin: 1rem;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #57558cfa;
-    position: relative;
-  }
-  .history_mid_page h3{
-    font-size: 16pt;
-    margin: 1rem;
-  }
+.mobile_new_mexico_end {
+  background-color: #57558cda; 
+  color: white;
+}
 
-  .history_our_history h3, p{
-    position: relative;
-    z-index: 2;
-  }
-  .history_yellow_paint{
-    position: absolute;
-    top: 100px;
-    width: 60vw;
-    z-index: 1;
-  }
+.mobile_history_our_history h3,
+.mobile_history_mid_page h3 {
+  font-size: 16pt;
+  margin: 1rem;
+}
 
-  .history_teal_paint{
-    position: absolute;
-    top: 100px;
-    width: 60vw;
-    z-index: 1;
-  }
+.mobile_history_our_history h3,
+.mobile_history_our_history p {
+  position: relative;
+  z-index: 2;
+}
 
-  .history_nm_end{
-    position: absolute;
-    top: 100px;
-    width: 60vw;
-    z-index: 1;
-  }
-
-
-  
-
-  @media (min-width: 1024px) {
-    .history_our_history{
-      background-color: transparent;
-      display: flex;
-      flex-direction: row;
-      margin : 1rem;
-      line-height: 1.5;
-    }
-    .history_our_history_inner{
-      width: 50%;
-    }
-    .history_our_history h3{
-      font-size: 22pt;
-    }
-    .our_history_image{
-      position: absolute;
-      right: 25%;
-      transform: translateX(-50%);
-      width: 500px;
-    }
-    .history_yellow_paint{
-      width: 25vw;
-    }
-
-
-
-
-
-
-
-    .southwest_to_outback{
-      background-color: transparent;
-    }
-    .new_mexico_end{
-      background-color: transparent;
-    }
-    .vertical_line {
-      height: 250%;
-    }
-    
-
-  }
-  
+.mobile_history_yellow_paint,
+.mobile_history_teal_paint,
+.mobile_history_nm_end {
+  position: absolute;
+  top: 100px;
+  width: 60vw;
+  z-index: -1;
+}

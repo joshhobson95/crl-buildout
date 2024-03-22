@@ -16,6 +16,7 @@ import Programs from './components/Programs/Programs';
 import History3 from './components/History2/History3';
 import Blog from './components/Blog/Blog';
 import SingleBlog from './components/Blog/SingleBlog';
+import MobileHistory from './components/History2/MobileHistory';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/team' element={<Team />}/>
         <Route path='/history' element={<History />}/>
+        <Route path='/mobilehistory' element={<MobileHistory />}/>
         <Route path='/history3' element={<History3 />}/>
         <Route path='/relationalearning' element={<RelationaLearning/>}/>
         <Route path='/resources' element={<Resources />}/>

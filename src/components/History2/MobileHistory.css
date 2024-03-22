@@ -1,0 +1,71 @@
+.mobilehistory_outer_shell{
+    background-color: #FDFDF5;
+    max-width: 100vw;
+    font-family: Kaisei Decol;
+    overflow: hidden;
+    overflow-x: hidden !important;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+
+
+.mobilehistory_top_background {
+    position: relative; 
+}
+
+.mobilehistory_top_background::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 370px;
+    background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg');
+    background-size: cover; 
+    background-position: center; 
+    filter: brightness(0.8); 
+    z-index: 0;
+	padding-bottom: 2rem;
+}
+
+.mobilehistory_top{
+    color: white;
+    text-align: center;
+}
+
+.mobilehistory_top h2{
+    position: relative;
+    font-size: 26pt;
+    padding: 1rem;
+    padding-top: 2rem;
+    z-index: 1;
+}
+
+.mobilehistory_top_inner{
+background-color: #57558cce;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+position: relative;
+z-index: 2;
+}
+
+.mobilehistory_mid_page{
+margin-top: 150px !important;
+margin: 0rem 1.5rem;
+}
+
+
+.mobile_our_history_div,
+.mobile_southwest_to_outback_div,
+.mobile_new_mexico_div {
+margin: 1rem;
+}
+
+
+.mobile_our_history_div h3,
+.mobile_southwest_to_outback_div h3,
+.mobile_new_mexico_div h3{
+    font-size: 16pt;
+}
