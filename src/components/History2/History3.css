@@ -9,15 +9,53 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: -10vh;
+
 }
 
-.history_image_top {
+/* .history_image_top {
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
+} */
+
+.history_top_background {
+  position: relative; 
 }
+.history_top_background::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 370px;
+  background-image: url('https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg');
+  background-size: cover; 
+  background-position: center; 
+  filter: brightness(0.8); 
+  z-index: 0;
+padding-bottom: 2rem;
+}
+.history_top{
+  color: white;
+  text-align: center;
+}
+.history_top h2{
+  position: relative;
+  font-size: 26pt;
+  padding: 1rem;
+  padding-top: 2rem;
+  z-index: 1;
+}
+.history_top_inner{
+background-color: #57558cd2;
+line-height: 1.5;
+padding: 0.5rem 2rem;
+margin: 2rem 0rem;
+position: relative;
+z-index: 2;
+}
+
 
 .sunset_image {
   background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/sunset-scaled.jpg);
@@ -29,22 +67,20 @@
   display: flex;
   justify-content: center;
   position: relative;
-  top: 10vh;
 
 }
 
 .our_story {
-  position: absolute;
-  background-image: url(../../assets/paint/purpledefined.png);
+  background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/purpledefined.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  top: -60%;
   bottom: 0;
   width: 420px;
   text-align: center;
   align-self: center;
   z-index: 6;
+	padding-top: 1rem;
 }
 
 .our_story h2 {
@@ -122,6 +158,36 @@
   transform: translateY(-40px);
 }
 
+.desktop-content {
+    display: block;
+}
+
+.mobile-content {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .desktop-content {
+        display: none;
+    }
+
+    .mobile-content {
+        display: block;
+    }
+}
+
+@media  (min-width: 1024px) {
+
+  .history_top h2{
+    font-size: 56pt;
+    font-weight: 500;
+    padding-top: 3vh;
+  }
+  .history_top_inner p{
+    margin: 2rem 4rem;
+    font-size: 14pt;
+  }
+}
 
 @media (min-width: 1400px) {
   .overlay_history{
@@ -132,16 +198,31 @@
   .overlay_history{
     margin: 0rem 15rem;
   }
+	  .history_top_inner p{
+    margin: 2rem 8rem;
+}
+.history_top h2{
+  padding-top: 5vh;
+}
 }
 @media (min-width: 1800px) {
   .overlay_history{
     margin: 0rem 20rem;
   }
+	  .history_top_inner p{
+    font-size: 16pt;
+}
 }
 @media (min-width: 2000px) {
   .overlay_history{
     margin: 0rem 30rem;
   }
+	  .history_top h2{
+    font-size: 72pt;
+}
+.history_top_inner p{
+    margin: 2rem 16rem;
+}
 }
 @media (min-width: 2400px) {
   .overlay_history{

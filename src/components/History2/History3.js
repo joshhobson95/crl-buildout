@@ -10,10 +10,18 @@ function History3() {
   return (
     <div class='history2_outer_shell'>
 
-<div class='history_image_top'>
-        <div class='sunset_image'>
+
+
+      <div class='history_top_background'>
+        <div class='history_top'>       
+            <h2>CRL History</h2>
+            <div class='history_top_inner'>
+                <p>
+                Accompany us on the journey through our past, and learn about who we are and where we come from.
+                </p>
+            </div>
         </div>
-      </div>
+    </div>
 
           <div class='our_story'>
             <h2>Our Story</h2>

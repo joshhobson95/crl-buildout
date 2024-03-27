@@ -4,7 +4,7 @@ import ourhistory from '../../assets/ourhistory.png'
 import swtooutback from '../../assets/swtooutback.png'
 import newmexicotrue from '../../assets/newmexicotrue.png'
 
-
+//^ THIS IS MOBILE
 
 function History() {
   return (
