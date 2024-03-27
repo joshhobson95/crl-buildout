@@ -344,7 +344,12 @@ text-align: center;
 	width: 8vw;
 }
 
-
+.home_more_info:hover{
+background-color:white ;
+border: #0B8F99 2px solid;
+color: #0B8F99;
+transition: 0.5s ease-in-out;
+}
 
 
 

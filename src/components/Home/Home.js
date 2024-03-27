@@ -65,7 +65,7 @@ console.log(posts)
 
           Our research, publications, programs and collaborations highlight and support the primacy of Relationships First in making our organizations, schools and communities places of equity, justice, hope, achievement and joy for all.</p>
 <div class='home_more_info_shell'>
-        <button class='home_more_info'>More Info</button>
+        <button class='home_more_info'>Get Started</button>
 </div>
         </div>
 
