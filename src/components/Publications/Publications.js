@@ -27,36 +27,25 @@ function Publications() {
 
     <div class='publication_one_container'>
          <div class='publication_one_text'>
-                <h3>RelationaLearning: A Way Forward</h3>
-                <p>Essential reading for parents, teachers, community leaders and others  interested in guiding learning in a global society. This book offers a  radical new look at how relationships make learning possible. Teachers  and students become leaders and learners together as they build more  interdependent relationships.</p>
-                <p>Written by: Dr. George Otero, Dr. robert Sparks, and Susan Chambers-Otero</p>
+                <h3>Dialouge for Democracy</h3>
+                <p>Deepening relationship through dialogue; skills for democracy. This Handbook from The Center for RelationaLearning provides multiple activities to support open, accepting and democratic discussion among participants. </p>
+                <p>Written by: Dr. George Otero, Stephen Preskill and Lois Vermilya</p>
 
                     <div class='publications_price_container'>
-                                    <span>$32.99 USD</span> <button class='publications_button'>Buy Now</button>
+                                    <span>$34.99 USD</span> 
+                                    <a href='https://www.learndesk.us/product/4832511445172224/dialogue-for-democracy'>
+                                    <button class='publications_button'>Buy Now</button>
+                                    </a>
                     </div>
                 </div>
 
             <div class='publication_one_book_container'>
-                        <img class='publication_one' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/1.png' alt=''/>
+                        <img class='publication_one' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/Democracy-Cover.png' alt=''/>
             </div>
 
             </div>
 
-    <div class='publication_one_container'>
-         <div class='publication_one_text'>
-                <h3>A Different Book</h3>
-                <p>Essential reading for parents, teachers, community leaders and others  interested in guiding learning in a global society. This book offers a  radical new look at how relationships make learning possible. Teachers  and students become leaders and learners together as they build more  interdependent relationships.</p>
-                <p>Written by: Dr. George Otero, Dr. robert Sparks, and Susan Chambers-Otero</p>
 
-                    <div class='publications_price_container'>
-                                    <span>$32.99 USD</span> <button class='publications_button'>Buy Now</button>
-                    </div>
-                </div>
-
-                <div class='publication_one_book_container'>
-                        <img class='publication_one' src='https://dev.relationalearning.com/wp-content/uploads/2024/03/1.png' alt=''/>
-            </div>
-            </div>
             
 
             

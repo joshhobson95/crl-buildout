@@ -67,12 +67,19 @@ z-index: 2;
 }
 .publications_button{
     font-size: 14pt;
-    border: none;
+    border: transparent 2px solid;
     padding: 1.2rem 2.2rem;
     background-color: #6CA367;
     color: white;
     font-weight: 700;
     font-family: Kaisei Decol;
+    cursor: pointer;
+}
+.publications_button:hover{
+    border: #6CA367 2px solid;
+    color: #6CA367;
+    background-color: white;
+    transition: 1s;
 }
 .publications_price_container{
     display: flex;
