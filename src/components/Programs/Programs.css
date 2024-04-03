@@ -60,8 +60,8 @@ z-index: 2;
     background-size: 60vw;
     background-position: -30vw 0vw;
     background-repeat: no-repeat;
-
 }
+
 .programs_mid_intro h2{
     font-size: 18pt;
     margin: 1rem;
@@ -109,16 +109,17 @@ z-index: 2;
 
 
 
+
 .programs_option_one h3{
-    font-size: 14pt;
+    font-size: 16pt;
     margin: 1rem;
 }
 .programs_option_two h3{
-    font-size: 14pt;
+    font-size: 16pt;
     margin: 1rem;
 }
 .programs_option_three h3{
-    font-size: 14pt;
+    font-size: 16pt;
     margin: 1rem;
 }
 .programs_option_one{
@@ -140,6 +141,12 @@ z-index: 2;
     width: 70vw;
 }
 
+.programs_options p{
+    margin: 1rem;
+}
+
+
+
 .programs_options_outro{
     margin: 2rem;
     background-image: url(https://dev.relationalearning.com/wp-content/uploads/2024/02/25opacitylogo-2.png);
@@ -147,6 +154,20 @@ z-index: 2;
     background-position: 55vw 50vw;
     background-repeat: no-repeat;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 750px) {
     .programs_option_one_img{
@@ -195,9 +216,11 @@ z-index: 2;
     }
     .programs_mid_intro h2{
         font-size: 24pt;
+        margin: 2rem 4rem;
     }
     .programs_mid_intro p{
         font-size: 16pt;
+        margin: 2rem 4rem;
     }
     .programs_mid_banner h2{
         font-size: 24pt;
@@ -224,6 +247,10 @@ z-index: 2;
         background-size: 80vw;
         background-position: -45vw 0vw;
     }
+    .programs_options p{
+        font-size: 14pt; 
+        line-height: 1.75;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -234,26 +261,25 @@ z-index: 2;
         margin: 2rem 6rem;
     }
     .programs_option_one_img{
-        width: 45vw;
-    }
-    .programs_options{
-        flex-direction: row;
-    }
-    .programs_option_one_img{
-        width: 28vw;
+        width: 50vw;
     }
     .programs_option_two_img{
-        width: 28vw;
+        width: 50vw;
     }
     .programs_option_three_img{
-        width: 28vw;
+        width: 50vw;
     }
+
+
     .programs_options_outro p{
         margin: 2rem 6rem;
     }
     .programs_mid_banner {
         background-size: 60vw;
         background-position: -30vw 0vw;
+    }
+    .programs_options p{
+        margin: 3rem 6rem;
     }
 }
 
@@ -267,6 +293,31 @@ z-index: 2;
         background-size: 40vw;
         background-position: 70vw 0vw;
     }
+    .programs_option_one_img{
+        width: 45vw;
+    }
+    .programs_option_two_img{
+        width: 45vw;
+    }
+    .programs_option_three_img{
+        width: 45vw;
+    }
+    
+    .programs_option_one h3{
+        font-size: 24pt;
+        margin: 2.5rem
+    }
+    .programs_option_two h3{
+        font-size: 24pt;
+        margin: 2.5rem
+    }
+    .programs_option_three h3{
+        font-size: 24pt;
+        margin: 2.5rem
+    }
+    .programs_mid_options h2{
+        font-size: 30pt;
+    }
 }
 
 
@@ -278,6 +329,11 @@ z-index: 2;
         background-size: 50vw;
         background-position: -25vw 0vw;
     }
+    .programs_options p{
+        margin: 3rem 10rem;
+        font-size: 16pt;
+    }
+
 }
 
 
@@ -323,6 +379,18 @@ z-index: 2;
         background-size: 40vw;
         background-position: -25vw 0vw;
     }
+    .programs_option_one_img{
+        width: 40vw;
+    }
+    .programs_option_two_img{
+        width: 40vw;
+    }
+    .programs_option_three_img{
+        width: 40vw;
+    }
+    .programs_options p{
+        margin: 4rem 14rem;
+    }
 }
 
 
@@ -335,6 +403,15 @@ z-index: 2;
     }
     .programs_top_inner p{
         margin: 2rem 16rem;
+    }
+    .programs_option_one_img{
+        width: 35vw;
+    }
+    .programs_option_two_img{
+        width: 35vw;
+    }
+    .programs_option_three_img{
+        width: 35vw;
     }
 
 }
